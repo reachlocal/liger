@@ -1,6 +1,5 @@
-
 ##Introduction
-Liger is a lightweight open source framework that provides tools to develop hybrid apps quickly and easily. If you are looking for a framework that can help you build a hybrid app, create a prototype, or just need a stepping stone to full native app development--this is a great way to begin. 
+Liger is a lightweight open source framework that helps you develop hybrid apps quickly and easily. If you are looking for a tool to build a hybrid app, create a prototype, or just need a stepping stone to full native app development--this is a great way to begin. 
 
 Liger is suited for web developers and others who are not ready to learn native app development. If you know HTML, JavaScript and CSS you are in a good position to start using Liger.
 
@@ -27,7 +26,7 @@ Liger will give you all the tools to get going.
 - **Liger Android** - your android app.
 
 ##What’s Required
-- An Apple computer with xcode installed (version 5 required)
+- An Apple computer with [Xcode](https://developer.apple.com/xcode/) installed (version 5 required)
 - Xcode command line tools (Install via the terminal app included with your mac. At the prompt type `xcode-select --install` hit return and follow the instructions)
 - Cocoapods (via terminal, type `sudo gem install cocoapods` and hit return)
 - [Liger Common](https://github.com/reachlocal/liger-common) [![Build Status](https://api.travis-ci.org/reachlocal/liger-common.png)](https://travis-ci.org/reachlocal/liger-common)
@@ -39,11 +38,11 @@ Liger will give you all the tools to get going.
 ##Getting Started
 Once you have cloned Liger Common and Liger iOS and/or Liger Android repositories follow the instructions below. They will help you setup your project.
 
-###Creating Your Project###
-- [Creating an iOS Project](https://github.com/reachlocal/liger/wiki/Create-iOS-app)
+###Seeting up Your Projects###
+- [Creating an iOS app](https://github.com/reachlocal/liger/wiki/Create-iOS-app)
 
 ###Creating your App
-Once your project is up and running here is how to start working with Liger. Liger-Common is where all the action is, it’s shared between your Android and iOS repos. Look for the app.json file.
+Once your project is up and running here is how to begin working with Liger. Liger-Common is where all the action is, it’s shared between your Android and iOS repos. Look for the app.json file.
 
 > 1. In the app.json define the name and page information (hello for this example) of the page that will be the home page as the first item in the menu object.
 > 2. Create an html file (hello.html) of the same name in the same directory as the app.json.
