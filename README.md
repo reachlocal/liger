@@ -41,7 +41,7 @@ Once you have cloned Liger Common and Liger iOS and/or Liger Android repositorie
 ###Setting up Your Projects###
 - [Creating an iOS app](https://github.com/reachlocal/liger/wiki/Create-iOS-app)
 
-###Creating your App
+###Creating Your App
 Once your project is up and running here is how to begin working with Liger. Liger-Common is where all the action is, it’s shared between your Android and iOS repos. Look for the app.json file.
 
 > 1. In the app.json define the name and page information (hello for this example) of the page that will be the home page as the first item in the menu object.
