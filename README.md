@@ -11,16 +11,16 @@ Liger is suited for web developers and others who are not ready to learn native 
 
 While hybrid apps are no replacement for native app development, Liger addresses many of the issues with hybrid app development.
 
-*###Native-like
+-###Native-like###
 Liger blends in. Since there are multiple web views, you have access to use native transitions between them. That means a much more native feel to your web apps. 
 
-*###Performance
+-###Performance###
 Liger is a powerful beast. Because Liger is built to use support multiple pages or web views, you can avoid memory performance pitfalls inherent in single view apps.
 
-*###Flexibility
+-###Flexibility###
 Liger is nimble. He deftly switches between native and web views and can share data between them.  If you want to create native pages, no problem--Liger supports this too. 
 
-*###Lightweight
+-###Lightweight###
 Liger doesn’t judge. You want to use Angular.js, go for it. CoffeeScript, Underscore, no problem. Even plain ol’ HTML, the front end is yours to do with as you please.
 
 ##What’s Inside
