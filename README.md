@@ -1,8 +1,3 @@
-Liger Common [![Build Status](https://api.travis-ci.org/reachlocal/liger-common.png)](https://travis-ci.org/reachlocal/liger-common)
-
-Liger iOS [![Build Status](https://api.travis-ci.org/reachlocal/liger-ios.png)](https://travis-ci.org/reachlocal/liger-ios)
-
-#Liger
 
 ##Introduction
 Liger is a lightweight open source framework that provides tools to develop hybrid apps quickly and easily. If you are looking for a framework that can help you build a hybrid app, create a prototype, or just need a stepping stone to full native app development--this is a great way to begin. 
@@ -11,18 +6,22 @@ Liger is suited for web developers and others who are not ready to learn native 
 
 While hybrid apps are no replacement for native app development, Liger addresses many of the issues with hybrid app development.
 
-- **Native-like** - Liger blends in. Since there are multiple web views, you have access to use native transitions between them. That means a much more native feel to your web apps. 
+- **Native-like**  
+Liger blends in. Since there are multiple web views, you have access to use native transitions between them. That means a much more native feel to your web apps. 
 
-- **Performance** - Liger is a powerful beast. Because Liger is built to use support multiple pages or web views, you can avoid memory performance pitfalls inherent in single view apps.
+- **Performance**  
+Liger is a powerful beast. Because Liger is built to use support multiple pages or web views, you can avoid memory performance pitfalls inherent in single view apps.
 
-- **Flexibility** - Liger is nimble. He deftly switches between native and web views and can share data between them.  If you want to create native pages, no problem--Liger supports this too. 
+- **Flexibility**  
+Liger is nimble. He deftly switches between native and web views and can share data between them.  If you want to create native pages, no problem--Liger supports this too. 
 
-- **Lightweight** - Liger doesn’t judge. You want to use Angular.js, go for it. CoffeeScript, Underscore, no problem. Even plain ol’ HTML, the front end is yours to do with as you please.
+- **Lightweight**  
+Liger doesn’t judge. You want to use Angular.js, go for it. CoffeeScript, Underscore, no problem. Even plain ol’ HTML, the front end is yours to do with as you please.
 
 ##What’s Inside
 Liger will give you all the tools to get going.
 
-- **Cordova** - the go to tool for accessing native device functions
+- **Cordova** - the go-to tool for accessing native device functions
 - **Liger Common** - your common repo where your web app will live.
 - **Liger iOS** - your iOS app.
 - **Liger Android** - your android app.
@@ -31,8 +30,11 @@ Liger will give you all the tools to get going.
 - An Apple computer with xcode installed (version 5 required)
 - Xcode command line tools (Install via the terminal app included with your mac. At the prompt type `xcode-select --install` hit return and follow the instructions)
 - Cocoapods (via terminal, type `sudo gem install cocoapods` and hit return)
-- [Liger Common](https://github.com/reachlocal/liger-common)
-- [Liger iOS](https://github.com/reachlocal/liger-ios) and/or [Liger Android](https://github.com/reachlocal/liger-android)
+- [Liger Common](https://github.com/reachlocal/liger-common) [![Build Status](https://api.travis-ci.org/reachlocal/liger-common.png)](https://travis-ci.org/reachlocal/liger-common)
+- [Liger iOS](https://github.com/reachlocal/liger-ios) [![Build Status](https://api.travis-ci.org/reachlocal/liger-ios.png)](https://travis-ci.org/reachlocal/liger-ios)
+- [Liger Android](https://github.com/reachlocal/liger-android)
+
+#Liger
 
 ##Getting Started
 Once you have cloned Liger Common and Liger iOS and/or Liger Android repositories follow the instructions below. They will help you setup your project.
@@ -45,7 +47,7 @@ Once your project is up and running here is how to start working with Liger. Lig
 
 > 1. In the app.json define the name and page information (hello for this example) of the page that will be the home page as the first item in the menu object.
 > 2. Create an html file (hello.html) of the same name in the same directory as the app.json.
-> 3. In the hello.html, include references to the included vendor files and js/pages/hello.js (this is your page's unique functionality).
+> 3. In the hello.html, include references to the included vendor files and js/pages/hello.js (this is your page's unique functionality).  
 >` <script type="text/javascript" src="vendor/cordova.js"></script>`
 >` <script type="text/javascript" src="vendor/page.js"></script>`
 >` <script type="text/javascript" src="vendor/liger.js"></script>`
