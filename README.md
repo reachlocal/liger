@@ -38,7 +38,7 @@ Liger will give you all the tools to get going.
 ##Getting Started
 Once you have cloned Liger Common and Liger iOS and/or Liger Android repositories follow the instructions below. They will help you setup your project.
 
-###Seeting up Your Projects###
+###Setting up Your Projects###
 - [Creating an iOS app](https://github.com/reachlocal/liger/wiki/Create-iOS-app)
 
 ###Creating your App
