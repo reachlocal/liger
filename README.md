@@ -28,6 +28,7 @@ Liger will give you all the tools to get going.
 ##What’s Required
 - An Apple computer with [Xcode](https://developer.apple.com/xcode/) installed (version 5 required)
 - Xcode command line tools (Install via the terminal app included with your mac. At the prompt type `xcode-select --install` hit return and follow the instructions)
+  - If you get the error `Can't install the software because it is not currently available from the Software Update server`, you may already have the tools installed.
 - Cocoapods (via terminal, type `sudo gem install cocoapods` and hit return)
 - [Liger Common](https://github.com/reachlocal/liger-common) [![Build Status](https://api.travis-ci.org/reachlocal/liger-common.png)](https://travis-ci.org/reachlocal/liger-common)
 - [Liger iOS](https://github.com/reachlocal/liger-ios) [![Build Status](https://api.travis-ci.org/reachlocal/liger-ios.png)](https://travis-ci.org/reachlocal/liger-ios)
