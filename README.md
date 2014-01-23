@@ -1,20 +1,20 @@
 ##Introduction
-Liger is a lightweight open source framework that helps you develop hybrid apps quickly and easily. If you are looking for a tool to build a hybrid app, create a prototype, or just need a stepping stone to full native app development--this is a great way to begin. 
+Liger is a lightweight open source framework that helps you develop hybrid apps quickly and easily. If you are looking for a tool to build a hybrid app, create a prototype, or just need a stepping stone to full native app development--this is a great way to begin.
 
 Liger is suited for web developers and others who are not ready to learn native app development. If you know HTML, JavaScript and CSS you are in a good position to start using Liger.
 
 While hybrid apps are no replacement for native app development, Liger addresses many of the issues with hybrid app development.
 
-- **Native-like**  
-Liger blends in. Since there are multiple web views, you have access to use native transitions between them. That means a much more native feel to your web apps. 
+- **Native-like**
+Liger blends in. Since there are multiple web views, you have access to use native transitions between them. That means a much more native feel to your web apps.
 
-- **Performance**  
+- **Performance**
 Liger is a powerful beast. Because Liger is built to use support multiple pages or web views, you can avoid memory performance pitfalls inherent in single view apps.
 
-- **Flexibility**  
-Liger is nimble. He deftly switches between native and web views and can share data between them.  If you want to create native pages, no problem--Liger supports this too. 
+- **Flexibility**
+Liger is nimble. He deftly switches between native and web views and can share data between them.  If you want to create native pages, no problem--Liger supports this too.
 
-- **Lightweight**  
+- **Lightweight**
 Liger doesn’t judge. You want to use Angular.js, go for it. CoffeeScript, Underscore, no problem. Even plain ol’ HTML, the front end is yours to do with as you please.
 
 ##What’s Inside
@@ -46,7 +46,7 @@ Once your project is up and running here is how to begin working with Liger. Lig
 
 > 1. In the app.json define the name and page information (hello for this example) of the page that will be the home page as the first item in the menu object.
 > 2. Create an html file (hello.html) of the same name in the same directory as the app.json.
-> 3. In the hello.html, include references to the included vendor files and js/pages/hello.js (this is your page's unique functionality).  
+> 3. In the hello.html, include references to the included vendor files and js/pages/hello.js (this is your page's unique functionality).
 >` <script type="text/javascript" src="vendor/cordova.js"></script>`
 >` <script type="text/javascript" src="vendor/page.js"></script>`
 >` <script type="text/javascript" src="vendor/liger.js"></script>`
@@ -58,11 +58,11 @@ Once your project is up and running here is how to begin working with Liger. Lig
 > 8. In your hello.js add any bindings, animations, etc., that bring your idea to life.
 
 ##Documentation
-Looking for details on Liger’s APIs? Looking to dig deeper into Liger? 
+Looking for details on Liger’s APIs? Looking to dig deeper into Liger?
 
 - [app.json](https://github.com/reachlocal/liger/wiki/app.json) - This is where you define your page(s) in your app, and customize native elements (colors) of your app.
 - [Creating native iOS pages](https://github.com/reachlocal/liger/wiki/Custom-iOS-pages)
-- [Liger's JavaScript API](https://github.com/reachlocal/liger-common?source=cc#what-liger-provides) 
+- [Liger's JavaScript API](https://github.com/reachlocal/liger-common?source=cc#what-liger-provides)
 - [Structuring your JavaScript](https://github.com/reachlocal/liger-common?source=cc#how-to-setup-your-javascript)
 - [Using Tests](https://github.com/reachlocal/liger-common#to-run-the-tests)  - Building with test driven development requires node.js, follow the instructions here to start building with tests.
 
