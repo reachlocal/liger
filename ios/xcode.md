@@ -12,13 +12,13 @@ This can seem strange at first, as it would seem easier to just copy the structu
 
 You can add files or folders in several ways. Either from the File menu, by dragging them in, or by using the right click menu. They all have their quirks but if you don't already have a favorite I recommend right clicking like in our [tutorial for creating an iOS app](https://github.com/reachlocal/liger/wiki/Create-iOS-app):
 
-![](https://raw.github.com/reachlocal/liger/master/wiki_images/Create-iOS-app/AddFiles.png)
+![Screenshot](/media/ios/AddFiles.png)
 
 This way you can select which group you want to add your file or folders to, and it's not as fidgety as drag and drop.
 
 # What do the add options mean to me?
 
-![](https://raw.github.com/reachlocal/liger/master/wiki_images/Create-iOS-app/AddConfig.png)
+![Screenshot](/media/ios/AddConfig.png)
 
 ## Copy items into destination group's folder (if needed)
 
