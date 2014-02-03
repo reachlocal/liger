@@ -1,0 +1,1 @@
+A common way to deal with ruby and gems is [RVM](https://rvm.io) which we use when developing Liger itself.
