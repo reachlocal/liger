@@ -1,0 +1,5 @@
+body { 
+	background-color: rgb(50,75,98); // Old browsers
+	@include filter-gradient(#324b62, #122631, horizontal); // IE6-9 fallback on horizontal gradient
+	@include background-image(linear-gradient(left top,  rgba(50,75,98,1) 0%,rgba(18,38,49,1) 100%));
+}

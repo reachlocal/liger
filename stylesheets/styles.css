@@ -1,0 +1,168 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,400italic);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:700);
+/* 
+=GLOBAL *****************************************************************************/
+/* line 5, ../scss/styles.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 7, ../scss/styles.scss */
+body {
+  background: #324b62;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #324b62 0%, #122631 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #324b62), color-stop(100%, #122631));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #324b62 0%, #122631 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #324b62 0%, #122631 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #324b62 0%, #122631 100%);
+  /* IE10+ */
+  background: linear-gradient(135deg, #324b62 0%, #122631 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#324b62', endColorstr='#122631',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* line 20, ../scss/styles.scss */
+iframe {
+  margin-bottom: -5px;
+}
+
+/* line 21, ../scss/styles.scss */
+.debug {
+  border: 1px solid red;
+}
+
+/* 
+=TYPEPOGRAPHY *****************************************************************************/
+/* line 28, ../scss/styles.scss */
+.h3 small {
+  margin-top: -20px;
+}
+
+/* line 29, ../scss/styles.scss */
+em {
+  font-family: 'Bitter-italic', serif;
+}
+
+/* line 30, ../scss/styles.scss */
+h2 {
+  color: #f1690d;
+}
+
+/* 
+=TOPBAR *****************************************************************************/
+/* line 35, ../scss/styles.scss */
+.bullet {
+  width: 13px;
+  line-height: 2;
+  color: #6d7882;
+  font-size: 2em;
+  font-family: 'Bitter-italic', serif;
+}
+
+/* line 43, ../scss/styles.scss */
+.top-bar .toggle-topbar.menu-icon a::after {
+  content: "*";
+  -webkit-box-shadow: 0 0 0 0 white, 0 0 0 0 white, 0 0 0 0 white;
+  box-shadow: 0 0 0 0 white, 0 0 0 0 white, 0 0 0 0 white;
+  line-height: 1.7;
+  font-size: 2em;
+  font-family: 'Bitter-italic', serif;
+}
+
+/* line 51, ../scss/styles.scss */
+.top-bar-section li::hover:not(.has-form) a:not(.button) {
+  background: transparent;
+}
+
+/* 
+=Intro *****************************************************************************/
+/* line 56, ../scss/styles.scss */
+#intro {
+  padding-top: 3em;
+  padding-bottom: 1em;
+}
+/* line 59, ../scss/styles.scss */
+#intro p {
+  color: #9ba2a8;
+  font-family: 'Bitter-italic', serif;
+}
+/* line 63, ../scss/styles.scss */
+#intro div {
+  margin: 0 auto;
+  width: 120px;
+}
+/* line 67, ../scss/styles.scss */
+#intro h1 {
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 1em;
+}
+
+/* line 75, ../scss/styles.scss */
+#call-to-action {
+  background-color: #243b4d;
+  border: 2px solid #30495e;
+}
+
+/* line 79, ../scss/styles.scss */
+#call-to-action:hover {
+  background-color: #2e4a60;
+  border: 2px solid #2e4a60;
+}
+
+/* line 83, ../scss/styles.scss */
+#call-to-action:active {
+  background-color: #1b2e3c;
+}
+
+/* 
+=BENFITS *****************************************************************************/
+/* line 88, ../scss/styles.scss */
+.benefits {
+  background-color: #eeefdd;
+  padding: 2em 0 0 0;
+}
+
+/* line 92, ../scss/styles.scss */
+.example {
+  height: 600px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* 
+=GETSTARTED *****************************************************************************/
+/* line 104, ../scss/styles.scss */
+.get-started {
+  background-color: white;
+  margin-top: 1px;
+  display: block;
+  width: 100%;
+  padding: 2em 0;
+  margin-bottom: 2em;
+}
+
+/* line 112, ../scss/styles.scss */
+.top-bar-section {
+  width: 500px;
+  margin: 0px auto;
+}
+
+/* 
+=FOOTER *****************************************************************************/
+/* line 122, ../scss/styles.scss */
+footer {
+  padding: 2em 0;
+  color: white;
+}
