@@ -13,7 +13,7 @@ Liger blends in. Since there are multiple web views, you have access to use nati
 Liger is a powerful beast. Because Liger is built to use support multiple pages or web views, you can avoid memory performance pitfalls inherent in single view apps.
 
 - **Flexibility**
-Liger is nimble. He deftly switches between native and web views and can share data between them.  If you want to create native pages, no problem--Liger supports this too.
+Liger is nimble. Liger deftly switches between native and web views and can share data between them.  If you want to create native pages, no problem--Liger supports this too.
 
 - **Lightweight**
 Liger doesn’t judge. You want to use Angular.js, go for it. CoffeeScript, Underscore, no problem. Even plain ol’ HTML, the front end is yours to do with as you please.
