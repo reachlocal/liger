@@ -1,20 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Bitter:400,700,400italic|Montserrat);
 @import "settings";
-@import "foundation";
+// @import "foundation";
 
 // Or selectively include components
-//@import
+@import
 //   "foundation/components/accordion",
 //   "foundation/components/alert-boxes",
-//   "foundation/components/block-grid",
+"foundation/components/block-grid",
 //   "foundation/components/breadcrumbs",
 //   "foundation/components/button-groups",
-//"foundation/components/buttons",
+"foundation/components/buttons",
 //   "foundation/components/clearing",
 //   "foundation/components/dropdown",
 //   "foundation/components/dropdown-buttons",
 //   "foundation/components/flex-video",
 //   "foundation/components/forms",
-//"foundation/components/grid",
+"foundation/components/grid",
 //   "foundation/components/inline-lists",
 //   "foundation/components/joyride",
 //   "foundation/components/keystrokes",
@@ -29,14 +30,142 @@
 //   "foundation/components/side-nav",
 //   "foundation/components/split-buttons",
 //   "foundation/components/sub-nav",
-//   "foundation/components/switch",
+"foundation/components/switch",
 //   "foundation/components/tables",
 //   "foundation/components/tabs",
 //   "foundation/components/thumbs",
 //   "foundation/components/tooltips",
-//"foundation/components/top-bar"
-//   "foundation/components/type",
+"foundation/components/top-bar",
+"foundation/components/type",
 //   "foundation/components/offcanvas",
-//   "foundation/components/visibility";
-//;
+"foundation/components/visibility"
+;
+
+
+/* 
+=GLOBAL *****************************************************************************/
+html, body {height: 100%;}
+
+body { 
+	background: rgb(50,75,98); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(50,75,98,1) 0%, rgba(18,38,49,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(50,75,98,1)), color-stop(100%,rgba(18,38,49,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg,  rgba(50,75,98,1) 0%,rgba(18,38,49,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(-45deg,  rgba(50,75,98,1) 0%,rgba(18,38,49,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(-45deg,  rgba(50,75,98,1) 0%,rgba(18,38,49,1) 100%); /* IE10+ */
+	background: linear-gradient(135deg,  rgba(50,75,98,1) 0%,rgba(18,38,49,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#324b62', endColorstr='#122631',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Bitter', Georgia, serif;
+}
+
+
+/* 
+=TYPEPOGRAPHY *****************************************************************************/
+// font-family: 'Bitter', Georgia, serif;
+// font-family: 'Bitter-italic', Georgia, serif;
+// font-family: 'Bitter-bold', Georgia,  serif;
+// font-family: 'Montserrat', Verdana, sans-serif;
+
+
+
+
+h1 {
+	font-family: 'Montserrat', Verdana, sans-serif;
+	text-transform: uppercase;
+	color: white;
+	margin-bottom: 1em;
+}
+
+h2 { color: #f1690d; }
+.subheader {
+	margin-top: -.5em;;
+	font-size: rem-calc(17);
+}
+//em {font-family: 'Bitter', Georgia, serif;}
+
+/* 
+=TOPBAR *****************************************************************************/
+
+.bullet {
+	width: 13px; 
+	line-height:2;
+	color: #6d7882;
+	font-size: 2em;
+	//font-family: 'Bitter', Georgia, serif;
+	}
+
+.top-bar-section li::hover:not(.has-form) a:not(.button) { background: transparent; }
+.top-bar-section {
+	width: 500px;
+	margin: 0px auto;
+}
+.top-bar .toggle-topbar.menu-icon a::after {
+	content: "*";
+	-webkit-box-shadow: 0 0 0 0  white, 0 0 0 0 white, 0 0 0 0  white;
+	box-shadow:  0 0 0 0  white,  0 0 0 0 white,  0 0 0 0  white;
+	line-height:1.7;
+	font-size: 2em;
+	//font-family: 'Bitter', Georgia, serif;
+}	
+.top-bar-section ul li.active > a {	border-bottom: 1px solid #2c455a; }
+
+/* 
+=Intro *****************************************************************************/
+
+#intro {
+	padding-top:4em;
+	padding-bottom:1em;
+	p {
+		color: #9ba2a8;
+	}
+	div {
+		margin: 0 auto;
+		width: 118px;
+	}
+}
+
+#call-to-action  {
+	background-color: #243b4d;
+	border:2px solid #30495e;
+}
+	#call-to-action:hover  {
+		background-color: #2e4a60;
+		border:2px solid #2e4a60;
+	}
+	#call-to-action:active  { background-color: #1b2e3c; }
+
+
+/* 
+=BENFITS *****************************************************************************/
+.benefits {
+	background-color: #eeefdd;
+	padding: 2em 0 0 0;
+}
+.examples {
+	height: 100%;
+}
+
+/* 
+=GETSTARTED *****************************************************************************/
+
+.get-started {
+	background-color: white;
+	margin-top: 1px;
+	display: block;
+	width:100%;
+	padding: 2em 0;
+	margin-bottom: 2em;
+}
+
+/* 
+=FOOTER *****************************************************************************/
+footer {
+	padding: 2em 0;
+	color: white;
+}
+.twitter-follow-button {margin-bottom:-5px;}
+
 

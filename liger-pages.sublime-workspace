@@ -1,0 +1,1202 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bac",
+				"background"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"inline",
+				"inline"
+			],
+			[
+				"enga",
+				"engagement_title"
+			],
+			[
+				"a",
+				"active"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bacg",
+				"background-color"
+			],
+			[
+				"edit-status",
+				"edit-status-link"
+			],
+			[
+				"link",
+				"list-link"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"input",
+				"input-list"
+			],
+			[
+				"icn",
+				"icn-1-5x"
+			],
+			[
+				"in",
+				"icn-right"
+			],
+			[
+				"remove",
+				"remove"
+			],
+			[
+				"adverti",
+				"advertiser-link"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"cla",
+				"class"
+			],
+			[
+				"icn-",
+				"icn-2x"
+			],
+			[
+				"icn-1-",
+				"icn-1-5x"
+			],
+			[
+				"pading",
+				"padding-right"
+			],
+			[
+				"call",
+				"call"
+			],
+			[
+				"t",
+				"text-transform"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"right",
+				"right-glyph"
+			],
+			[
+				"cl",
+				"class"
+			],
+			[
+				"form",
+				"FormEmail"
+			],
+			[
+				"adv",
+				"adv_id"
+			],
+			[
+				"padding",
+				"padding-right"
+			],
+			[
+				"marin",
+				"margin-left"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"event",
+				"event-detail"
+			],
+			[
+				"slide",
+				"slideHeight"
+			],
+			[
+				"new",
+				"new_contacts"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"lo",
+				"lowercase"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"search",
+				"search-bar"
+			],
+			[
+				"text",
+				"text-top"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"paddi",
+				"padding-left"
+			],
+			[
+				"padin",
+				"padding-right"
+			],
+			[
+				"lt",
+				"ltgrblue"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"md",
+				"mddkgray"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"te",
+				"text-bottom"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"bo",
+				"borderColor4"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"lin",
+				"linear-gradient"
+			],
+			[
+				"bloc",
+				"block"
+			],
+			[
+				"hi",
+				"hidden"
+			],
+			[
+				"textb",
+				"textBold"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"or",
+				"orange"
+			],
+			[
+				"inl",
+				"inline"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"mi",
+				"middle"
+			],
+			[
+				"menu",
+				"menuType"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"b",
+				"background-color"
+			],
+			[
+				"visib",
+				"visible"
+			],
+			[
+				"vis",
+				"visibility"
+			],
+			[
+				"vi",
+				"visibility"
+			],
+			[
+				"me",
+				"menu"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"main",
+				"main-nav"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"boder-r",
+				"border-right"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"mr",
+				"margin"
+			],
+			[
+				"ui-wid",
+				"ui-widget-content"
+			],
+			[
+				"to",
+				"toolbar"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "scss/app.scss",
+			"settings":
+			{
+				"buffer_size": 1467,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/styles.scss",
+			"settings":
+			{
+				"buffer_size": 3292,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "scss/_settings.scss",
+			"settings":
+			{
+				"buffer_size": 38979,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/markleppke/Dev/liger-pages/index.html",
+		"/Users/markleppke/Dev/edge-mobile-ios/www/app/js/templates.coffee",
+		"/Users/markleppke/Dev/edge-mobile-cordova-www/app/js/templates.coffee",
+		"/Users/markleppke/Dev/edge-mobile-cordova-www/app/js/languages.js",
+		"/Users/markleppke/Documents/Development/liger-common/app/app.json",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/css/application.css",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/js/pages/signin.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/signin.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/js/pages/signout.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/signout.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/js/pages/actionDetail.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/js/classes/timeline.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/js/pages/advertisers.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/js/pages/contactEditStatus.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/js/pages/support.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/js/pages/contactDetail.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/js/pages/timeline.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/js/templates.coffee",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/actionDetail.html",
+		"/Users/markleppke/Desktop/STRINGS.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/js/pages/home.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/js/languages.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/js/pages/contacts.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/css/components.css",
+		"/Users/markleppke/Documents/Development/TestApp/Podfile",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/demo-data/timeline.json",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/demo-data/advertisers.json",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/demo-data/contact-details-timeline.json",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/demo-data/contacts.json",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/demo-data/support.json",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/demo-data/home.json",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/js/pages/contactInfo.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app/demo-data/call.mp3",
+		"/Users/markleppke/Desktop/document.json",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/css/components.css",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/EdgeMobile.sublime-workspace",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/EdgeMobile.sublime-project",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/demo-data/advertisers.json",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/js/languages.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/advertisers.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/js/configs/configs.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/js/pages/advertisers.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/js/templates.coffee",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/contactEditNote.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/contacts.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/actionDetail.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/contactDetail.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/contactEditInfo.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/contactEditStatus.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/contactInfo.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/home.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/legalNotices.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/selectCustomerStatus.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/signin.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/signout.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/support.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/app.json",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/tour.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/teammemberDetail.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/www/js/pages/support.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/www/js/app.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/js/pages/contactEditStatus.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/js/pages/actionDetail.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/timeline.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/www/css/components.css",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/js/pages/selectCustomerStatus.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/js/pages/contactDetail.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/www/js/pages/timeline.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/platform/platform.css",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/www/actionDetail.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/www/advertisers.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/www/blank.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/www/contactDetail.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/www/contactEditInfo.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/www/contactEditStatus.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/www/contactInfo.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/www/contacts.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/www/home.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/www/legalNotices.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/www/selectCustomerStatus.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/www/signin.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/www/signout.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/www/support.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/www/teammemberDetail.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/www/timeline.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-Android/src/main/assets/www/tour.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/js/app.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/js/pages/support.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/css/application.css",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/js/pages/home.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/js/pages/signout.js",
+		"/Users/markleppke/Desktop/components-mine.css",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/legal/html.json",
+		"/Users/markleppke/Desktop/components-theirs.css",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/contact-info.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/contact-edit-status.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/demo-data/home.json",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/js/pages/tour.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/teammember-detail.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/action-detail.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/contact-detail.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/js/pages/action-detail.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/js/libs/iscroll.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/intro.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/js/pages/introduction.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/introduction.html",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/js/classes/loading.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/js/templates.js",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/demo-data/timeline.json",
+		"/Users/markleppke/Documents/Development/EdgeMobile-iOS/www/demo-data/contacts.json",
+		"/Users/markleppke/Development/edge-mobile-styleguide/app/assets/stylesheets/components.css.scss",
+		"/Users/markleppke/Development/edge-mobile-styleguide/app/assets/stylesheets/normalize.css",
+		"/Users/markleppke/Development/edge-mobile-styleguide/app/views/components/actionList.html.erb",
+		"/Users/markleppke/Development/edge-mobile-styleguide/app/views/components/contact.html.erb",
+		"/Users/markleppke/Development/edge-mobile-styleguide/app/views/components/contactDetailEdit.html.erb",
+		"/Users/markleppke/Development/edge-mobile-styleguide/app/views/components/settinglist.html.erb",
+		"/Users/markleppke/Development/edge-mobile-styleguide/app/controllers/components_controller.rb",
+		"/Users/markleppke/Development/edge-mobile-styleguide/app/assets/javascripts/templates.js.coffee",
+		"/Users/markleppke/Development/edge-mobile-styleguide/app/assets/stylesheets/components.css",
+		"/Users/markleppke/Development/edge-mobile-styleguide/app/views/components/contactDetail.html.erb",
+		"/Users/markleppke/Development/edge-mobile-styleguide/app/views/components/eventWstatus.html.erb",
+		"/Users/markleppke/Development/edge-mobile-styleguide/app/views/components/eventWOstatus.html.erb",
+		"/Users/markleppke/Development/edge-mobile-styleguide/app/views/components/signin.html.erb",
+		"/Users/markleppke/Development/edge-mobile-styleguide/app/views/components/signinhelp.html.erb",
+		"/Users/markleppke/Development/edge-mobile-styleguide/app/views/components/menu.html.erb",
+		"/Users/markleppke/Development/edge-mobile-styleguide/app/views/components/loader.html.erb",
+		"/Users/markleppke/Development/edge-mobile-styleguide/app/views/components/splash.html.erb",
+		"/Users/markleppke/Development/edge-mobile-styleguide/app/views/components/advertiser.html.erb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/markleppke/Dev/edge-mobile-ios/www/app/js",
+			"<project>",
+			"",
+			"/Users/markleppke/Development/edge-mobile-styleguide/app/views",
+			"",
+			"/Users/markleppke/Documents/Development/cloudprofile/iaf/web-app/css",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"link",
+			"$include-html-classes",
+			"button",
+			"font-family",
+			"body",
+			"actions_tab",
+			"loading",
+			"load",
+			"loader",
+			".loader",
+			"load",
+			"language.loading",
+			"loading",
+			"Language.loading",
+			"no_contacts_found",
+			"cm_contact_state_code",
+			"username",
+			"cm_contact_state_code",
+			"LANGUAGE",
+			"contacts_message",
+			"load",
+			"loading",
+			"completedActionsTitle",
+			"		</ul>\ncompletedActionsTitle",
+			"completedActionsTitle",
+			"no_contacts_found",
+			"contacts_message",
+			"engagement_heading",
+			"performance",
+			"Your Engagement Rate",
+			"close",
+			"archive",
+			"refresh",
+			"-webkit-tap-highlight-color: transparent;",
+			"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); ",
+			"list-link",
+			"inline",
+			"button",
+			"edit-status-link",
+			"edit-status",
+			"button",
+			"event-details",
+			"contactdetail",
+			"contact-details",
+			"event-detail",
+			"timeline-event",
+			":active",
+			"webkit-tap-high",
+			"icn-close",
+			"edit-status-link",
+			"edit-status",
+			"action-list",
+			"-webkit-tap-highlight-color",
+			"button",
+			"player-container",
+			"clear-both",
+			":active",
+			".edit-status-link",
+			"glyph",
+			"event",
+			".list-link",
+			"button",
+			"advertiser",
+			"button",
+			".list",
+			"button",
+			"action",
+			":active",
+			"list-link",
+			"edit-status-link",
+			"action-list",
+			"suppport",
+			"button",
+			"action-list",
+			"actionlist",
+			"event.type",
+			"icon",
+			"action",
+			"timeline",
+			"icn-item",
+			"action",
+			"action list",
+			"input-list",
+			"input",
+			"edit-status-link",
+			"input-list",
+			"input list",
+			"icn-chevr",
+			"contact_details_container",
+			"edit-status",
+			"class=\"icon\"",
+			"hotlist",
+			"insight",
+			"#chart_area_breakdown_close",
+			"<<<<<<<",
+			"striped-background",
+			"search",
+			"event-details-header-content",
+			"edit-status-link",
+			"contact-info",
+			"contact-details",
+			"icn-sele",
+			"icn-1-3",
+			"action-list",
+			"timeline",
+			"action_list",
+			"action",
+			"activity",
+			"insights",
+			"icn-close",
+			"close",
+			"chevron",
+			"icon",
+			"action",
+			"close",
+			"status",
+			"contact_even",
+			"glyph",
+			"actionlist",
+			"eventdetail",
+			"item",
+			"item.icon",
+			"contactdetail",
+			"glyph",
+			"contactdetail",
+			"contact-detail",
+			"mask",
+			"timeline"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"-webkit-tap-highlight-color: transparent; /* for android */",
+			"-webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-tap-highlight-color: transparent;",
+			"<span class=\"glyph\">z</span>",
+			"Jo-Jo John King",
+			"Jo John The King",
+			"../assets",
+			"-black-",
+			"menu-icon",
+			"<link rel=\"stylesheet\" href=\"css/ratchet.css\"><link rel=\"stylesheet\" href=\"css/core.css\">",
+			"<script src=\"js/ratchet.js\"></script>",
+			"<link rel=\"stylesheet\" href=\"css/ratchet.css\">",
+			"<script src=\"js/ratchet.js\"></script>",
+			"<link rel=\"stylesheet\" href=\"css/ratchet.css\">"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "scss/app.scss",
+					"settings":
+					{
+						"buffer_size": 1467,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								20,
+								20
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "scss/styles.scss",
+					"settings":
+					{
+						"buffer_size": 3292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2167,
+								2167
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 13.0,
+						"translation.y": 465.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "scss/_settings.scss",
+					"settings":
+					{
+						"buffer_size": 38979,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								33235,
+								33235
+							]
+						],
+						"settings":
+						{
+							"annotations":
+							[
+								"TODO",
+								"README",
+								"FIXME"
+							],
+							"csslint_options":
+							{
+								"adjoining-classes": "warning",
+								"box-model": true,
+								"box-sizing": "warning",
+								"compatible-vendor-prefixes": "warning",
+								"display-property-grouping": true,
+								"duplicate-background-images": "warning",
+								"duplicate-properties": true,
+								"empty-rules": true,
+								"errors": true,
+								"fallback-colors": "warning",
+								"floats": "warning",
+								"font-faces": "warning",
+								"font-sizes": "warning",
+								"gradients": "warning",
+								"ids": "warning",
+								"import": "warning",
+								"important": "warning",
+								"known-properties": true,
+								"outline-none": "warning",
+								"overqualified-elements": "warning",
+								"qualified-headings": "warning",
+								"regex-selectors": "warning",
+								"rules-count": "warning",
+								"shorthand": "warning",
+								"star-property-hack": "warning",
+								"text-indent": "warning",
+								"underscore-property-hack": "warning",
+								"unique-headings": "warning",
+								"universal-selector": "warning",
+								"vendor-prefix": true,
+								"zero-units": "warning"
+							},
+							"gjslint_ignore":
+							[
+								110.0
+							],
+							"gjslint_options":
+							[
+							],
+							"javascript_linter": "jshint",
+							"jshint_options":
+							{
+								"browser": true,
+								"evil": true,
+								"regexdash": true,
+								"sub": true,
+								"trailing": true,
+								"wsh": true
+							},
+							"pep8": true,
+							"pep8_ignore":
+							[
+								"E501"
+							],
+							"perl_linter": "perlcritic",
+							"pyflakes_ignore":
+							[
+							],
+							"pyflakes_ignore_import_*": true,
+							"sublimelinter": true,
+							"sublimelinter_delay": 2.0,
+							"sublimelinter_disable":
+							[
+							],
+							"sublimelinter_executable_map":
+							{
+							},
+							"sublimelinter_fill_outlines": false,
+							"sublimelinter_gutter_marks": true,
+							"sublimelinter_gutter_marks_theme": "simple",
+							"sublimelinter_mark_style": "none",
+							"sublimelinter_notes": false,
+							"sublimelinter_objj_check_ascii": false,
+							"sublimelinter_popup_errors_on_save": false,
+							"sublimelinter_syntax_map":
+							{
+								"C++": "c",
+								"Python Django": "python",
+								"Ruby on Rails": "ruby"
+							},
+							"sublimelinter_wrap_find": true,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 15010.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.492569309731,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"ad",
+				"js/pages/advertisers.js"
+			],
+			[
+				"adver",
+				"advertisers.html"
+			],
+			[
+				"configs",
+				"js/configs/configs.js"
+			],
+			[
+				"act",
+				"js/pages/actionDetail.js"
+			],
+			[
+				"edi",
+				"js/pages/contactEditStatus.js"
+			],
+			[
+				"signout",
+				"js/pages/signout.js"
+			],
+			[
+				"sig",
+				"signout.html"
+			],
+			[
+				"tour",
+				"js/pages/tour.js"
+			],
+			[
+				"home",
+				"js/pages/home.js"
+			],
+			[
+				"",
+				"assets/stylesheets/application.css"
+			],
+			[
+				"chart",
+				"assets/javascripts/components/chartArea.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 215.0,
+	"status_bar_visible": true
+}
