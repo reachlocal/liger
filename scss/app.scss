@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Bitter:400,700,400italic|Montserrat);
 @import "settings";
+@import 'normalize';
 // @import "foundation";
 
 // Or selectively include components
@@ -54,8 +55,6 @@ body {
 	background: -o-linear-gradient(-45deg,  rgba(50,75,98,1) 0%,rgba(18,38,49,1) 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(-45deg,  rgba(50,75,98,1) 0%,rgba(18,38,49,1) 100%); /* IE10+ */
 	background: linear-gradient(135deg,  rgba(50,75,98,1) 0%,rgba(18,38,49,1) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#324b62', endColorstr='#122631',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-	margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: 'Bitter', Georgia, serif;
@@ -70,8 +69,6 @@ body {
 // font-family: 'Montserrat', Verdana, sans-serif;
 
 
-
-
 h1 {
 	font-family: 'Montserrat', Verdana, sans-serif;
 	text-transform: uppercase;
@@ -84,20 +81,23 @@ h2 { color: #f1690d; }
 	margin-top: -.5em;;
 	font-size: rem-calc(17);
 }
-//em {font-family: 'Bitter', Georgia, serif;}
 
 /* 
 =TOPBAR *****************************************************************************/
 
 .bullet {
-	width: 13px; 
+	width: 14px; 
 	line-height:2;
 	color: #6d7882;
 	font-size: 2em;
-	//font-family: 'Bitter', Georgia, serif;
 	}
-
-.top-bar-section li::hover:not(.has-form) a:not(.button) { background: transparent; }
+.bullet, .active, em ,  .menu-icon a {
+	font-style: italic;
+	font-weight: normal;
+}
+.top-bar-section li::hover:not(.has-form) a:not(.button) { 
+	background: transparent; 
+	}
 .top-bar-section {
 	width: 500px;
 	margin: 0px auto;
@@ -108,9 +108,14 @@ h2 { color: #f1690d; }
 	box-shadow:  0 0 0 0  white,  0 0 0 0 white,  0 0 0 0  white;
 	line-height:1.7;
 	font-size: 2em;
-	//font-family: 'Bitter', Georgia, serif;
+	font-weight: normal;
 }	
-.top-bar-section ul li.active > a {	border-bottom: 1px solid #2c455a; }
+.top-bar-section ul li.active > a {	 }
+
+@media (max-width: 640px) {
+  .top-bar-section ul li.active > a { border-bottom: 1px solid #2c455a; }
+}
+
 
 /* 
 =Intro *****************************************************************************/
@@ -120,12 +125,14 @@ h2 { color: #f1690d; }
 	padding-bottom:1em;
 	p {
 		color: #9ba2a8;
+		font-weight: 400;
 	}
 	div {
 		margin: 0 auto;
 		width: 118px;
 	}
 }
+
 
 #call-to-action  {
 	background-color: #243b4d;
@@ -147,6 +154,7 @@ h2 { color: #f1690d; }
 .examples {
 	height: 100%;
 }
+
 
 /* 
 =GETSTARTED *****************************************************************************/
