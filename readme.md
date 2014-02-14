@@ -50,5 +50,12 @@ Here we share little helpful tutorials on how we develop Liger applications.
 
 ## iOS specific
 
-* Custom app delegates
-* Writing custom native iOS pages
+* [Writing a custom app delegates](ios/app-delegate.md)
+* [Writing custom native iOS pages](ios/custom-pages.md)
+
+# The Liger repos
+
+If you want to dig deeper or want to contribute to Liger yourself, or if you are just plain old curious, these are the GitHub repos that hosts the individual pieces of Liger.
+
+- **[Liger Common](https://github.com/reachlocal/liger-common)** Common resources for a Liger app. [![Build Status](https://api.travis-ci.org/reachlocal/liger-common.png)](https://travis-ci.org/reachlocal/liger-common)
+- **[Liger iOS](https://github.com/reachlocal/liger-ios)** A native iOS library for Liger. [![Build Status](https://api.travis-ci.org/reachlocal/liger-ios.png)](https://travis-ci.org/reachlocal/liger-ios)
