@@ -1,4 +1,4 @@
-# Step 2: Creating an iOS App
+# Step 4: Creating an iOS App
 
 ## Create a project
 
@@ -11,9 +11,10 @@ For project type, choose an Empty iOS Application.
 ![Screenshot](/media/tutorial/ios/1-create-empty-project/2-empty-app.png)
 
 At minimum, give your product:
-* A name (human-friendly title for the App Store)
-* A Company Identifier (combined with the app name, this forms a unique ID used for certificates)
-* A Class Prefix (prevents namespace collisions)
+
+* A name (This is the name of your app. It's displayed on the device and in the App Store.)
+* A Company Identifier (Combined with the app name, this forms a unique ID used for certificates)
+* A three letter all uppercase Class Prefix (prevents namespace collisions with Apple's frameworks and third party projects)
 
 ![Screenshot](/media/tutorial/ios/1-create-empty-project/3-project-options.png)
 
@@ -22,7 +23,7 @@ Create the project.
 ![Screenshot](/media/tutorial/ios/1-create-empty-project/4-create-project.png)
 ![Screenshot](/media/tutorial/ios/1-create-empty-project/5-project-screen.png)
 
-You can now close Xcode - this project will be used as a template in the next step to create a workspace.
+You should now close the project by pressing the red close button in the top left corner of the Xcode window. This will be the last time you open the project file directly.
 
 ## Create a Podfile
 
@@ -60,14 +61,14 @@ This creates a workspace and installs all the pods in your Podfile as well as an
 
 ## Open the Workspace
 
-Open up your *xcworkspace*. It should be named something like ExampleIOS.xcworkspace.
-You will be using this in XCode from now on, rather than the empty project we created earlier.
+Open up your *xcworkspace*. It should be named something similar to ExampleIOS.xcworkspace. As mentioned previously you should not open the project file. Both your project and the pod project are included in the workspace, and without the pods your app won't work.
 
 ## Using Liger's app delegate
 
-Open up your project's **main.m**. You can do this either by selecting it in the list of files on the left (Hint: you can filter file names at the bottom of the list) or press **shift+command+o** and type 'main.m'. Working with large code bases it can be sometimes be hard to find files and **shift+command+o** can make your life easier.
+Open up your project's **main.m**. You can do this either by selecting it in the list of files on the left (Hint: you can filter file names at the bottom of the list) or press **shift+command+o** and type 'main.m'. Working with large code bases it can be sometimes be difficult to find files and **shift+command+o** can make your life easier.
 
-In the main.m file you want to do two things:
+In the main.m file there's two things we need to do:
+
 * Add in an import for _LGRAppDelegate.h_ near the top of your file.
 * Replace the name of your AppDelegete with LGRAppDelegate. (Hint: UIApplicationMain(argc, argv, nil, NSStringFromClass([**AppDelegate** class]));)
 
@@ -76,7 +77,7 @@ You should start out with something like this:
 ```objective-c
 //
 //  main.m
-//  FancyApp
+//  ExampleIOS
 //
 
 #import <UIKit/UIKit.h>
@@ -95,7 +96,7 @@ And when you are done it should look something like this:
 ```objective-c
 //
 //  main.m
-//  FancyApp
+//  ExampleIOS
 //
 
 #import <UIKit/UIKit.h>
@@ -126,7 +127,7 @@ For file type, choose Empty:
 
 ![Screenshot](/media/tutorial/ios/3-config-xml/1-empty-file.png)
 
-Choose a filename of `config.xml` and ensure the ExampleIOS group & target is selected:
+Save the file as `config.xml` and ensure the ExampleIOS group & target is selected:
 
 ![Screenshot](/media/tutorial/ios/3-config-xml/2-config-xml.png)
 
@@ -196,28 +197,25 @@ The next step is to copy the supplied cordova.js from the Pod to your app folder
 cp Pods/Cordova/CordovaLib/cordova.js app/vendor/
 ```
 
-Now begins the fun part. Write your next amazing app! A good point to start is the [Liger Common](https://github.com/reachlocal/liger-common/blob/master/readme.md) that should be helpful.
-
+Now you should have a skeleton hello world app.
 To summarize:
 
 1. Create app folder
 1. Copy the template app from Liger Common
 1. Copy cordova.js to app/vendor
-1. Write your app and share it in other Liger flavors (Android for example)
 
 ## Run the app
 
-If all went well you should be able to press the big play button in the top right (or just press cmd-r, it's a well worth it to remember shortcut) and run the app!
+If all went well you should be able to press the big play button in the top right (or just press *cmd-r*, it's a well worth it to remember shortcut) and run the app!
 
-Tip, if your html/css/js changes doesn't seem to take effect, try cleaning the project (under the Product menu, for a deeper clean press option before selecting clean) and run it again.
+This should start the iPhone Simulator, install your app, and start it.
 
+![Screenshot](/media/tutorial/ios/5-start-simulator/1.simulator.png)
 
-## Next steps
+If the app doesn't start as it should, make sure you have an iPhone Simulator selected. In the menu just next to the start and stop buttons select a simulator.
 
-Now that you've got a running Liger app, it's time to learn about adding some [web content](3-web.md).
+![Screenshot](/media/tutorial/ios/5-start-simulator/2-select-simulator.png)
 
+If you have set up your iOS device for development you can hook it up with a cable, select iOS as the target, and press the play button. This will install and start the app on your device.
 
-
----
-
-[Home](/) | Back to [Getting Started](/tutorial/1-getting-started.md)
+Tip, if your html/css/js changes doesn't seem to take effect, try cleaning the project (under the Product menu, for a deeper clean press option before selecting clean) and run it again. This seems to be an Xcode related issue and we are hoping Apple will fix it in a future release.

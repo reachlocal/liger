@@ -1,4 +1,4 @@
-# Step 2: Creating an Android app
+# Step 4: Creating an Android app skeleton
 
 Coming soon!
 
