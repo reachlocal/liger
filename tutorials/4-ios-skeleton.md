@@ -12,9 +12,9 @@ For project type, choose an Empty iOS Application.
 
 At minimum, give your product:
 
-* A name (human-friendly title for the App Store)
-* A Company Identifier (combined with the app name, this forms a unique ID used for certificates)
-* A Class Prefix (prevents namespace collisions)
+* A name (This is the name of your app. It's displayed on the device and in the App Store.)
+* A Company Identifier (Combined with the app name, this forms a unique ID used for certificates)
+* A three letter all uppercase Class Prefix (prevents namespace collisions with Apple's frameworks and third party projects)
 
 ![Screenshot](/media/tutorial/ios/1-create-empty-project/3-project-options.png)
 
@@ -210,11 +210,11 @@ If all went well you should be able to press the big play button in the top righ
 
 This should start the iPhone Simulator, install your app, and start it.
 
-![Screenshot](...)
+![Screenshot](/media/tutorial/ios/5-start-simulator/1.simulator.png)
 
-If the app doesn't start as it should, make sure you have an iPhone Simulator selected.
+If the app doesn't start as it should, make sure you have an iPhone Simulator selected. In the menu just next to the start and stop buttons select a simulator.
 
-![Screenshot](...)
+![Screenshot](/media/tutorial/ios/5-start-simulator/2-select-simulator.png)
 
 If you have set up your iOS device for development you can hook it up with a cable, select iOS as the target, and press the play button. This will install and start the app on your device.
 
