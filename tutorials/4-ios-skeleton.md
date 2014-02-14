@@ -1,4 +1,4 @@
-# Step 2: Creating an iOS App
+# Step 4: Creating an iOS App
 
 ## Create a project
 

@@ -28,4 +28,4 @@ Link to RVM page, common with RoR developers, more advanced, tip to use .ruby-ve
 
 ---
 
-[Home](/) | Up to [Tutorial](/tutorial)
+[Home]() | Up to [Tutorial](/tutorial)
