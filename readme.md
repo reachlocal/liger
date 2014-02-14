@@ -38,12 +38,13 @@ Getting started on a Mac with Liger for Android
 
 Here we share little helpful tutorials on how we develop Liger applications.
 
-* [Debugging Javascript with Safari and the iPhone Simulator]()
-* [Xcode and how you add files]()
+* [Debugging Javascript with Safari and the iPhone Simulator](ios/debug-js.md)
+* [Xcode and how you add files](ios/xcode.md)
 
 # APIs and file formats
 
-* How to edit your [app.json]() file
+* How to edit your [app.json](api/app.json.md) file
+* How [page.js](api/page.js.md) works
 
 # Advanced topics
 
