@@ -1,37 +1,53 @@
-#Liger
+# Welcome to Liger
 
 Liger is a lightweight open source framework that helps you develop hybrid apps quickly and easily. If you are looking for a tool to build a hybrid app, create a prototype, or just need a stepping stone to full native app development--this is a great way to begin.
 
-Liger is suited for web developers and others who are not ready to learn native app development. If you know HTML, JavaScript and CSS you are in a good position to start using Liger.
+If this is your first time looking at Liger, take a look at our [Liger GitHub page](http://reachlocal.github.io/liger/). If you want to get started with Liger we have a set of tutorials to help you out, and if you are already familiar there are API documentation and advanced topics to dig into. If you have any questions feel free to contact us!
 
-While hybrid apps are no replacement for native app development, Liger addresses many of the issues with hybrid app development.
+Liger can be found on twitter as [@ligerdevs](https://twitter.com/ligerdevs) and the people behind are:
 
-- **Native-like**
-Liger blends in. Since there are multiple web views, you have access to use native transitions between them. That means a much more native feel to your web apps.
+* John Gustafsson [@flekkzo](https://twitter.com/flekkzo)
+* Brad Marsh [@Bbqhacker](https://twitter.com/Bbqhacker)
+* Alec Plumb [@etherwalker](https://twitter.com/etherwalker)
+* Robert Tomb [@bikeonastick](https://twitter.com/bikeonastick)
+* Tony Collen [@tcollen](https://twitter.com/tcollen)
+* Nathaniel Kofalt [@nkofalt](https://twitter.com/nkofalt)
 
-- **Performance**
-Liger is a powerful beast. Because Liger is built to use support multiple pages or web views, you can avoid memory performance pitfalls inherent in single view apps.
+# Tutorials
+## Getting started
 
-- **Flexibility**
-Liger is nimble. Liger deftly switches between native and web views and can share data between them.  If you want to create native pages, no problem--Liger supports this too.
+Time to get started with Liger. Following the tutorials below will set you up so you can develop on your choice of platform. It can sound very daunting with all the different tools, but we will do our best to make the experience as pain free as possible and make sure your work flow is straight forward.
 
-- **Lightweight**
-Liger doesn’t judge. You want to use Angular.js, go for it. CoffeeScript, Underscore, no problem. Even plain ol’ HTML, the front end is yours to do with as you please.
+Also don't worry, Liger HTML5 is meant to be a shared codebase between the different platforms Liger runs on. So choose the platform you feel the most comfortable with for your first time writing apps using Liger.
 
-## What’s Inside
-Liger will give you all the tools to get going.
+Gettings started on a Mac with Liger for iOS
 
-- **Cordova** - the go-to tool for accessing native device functions (bundled with Liger).
-- **[Liger Common](https://github.com/reachlocal/liger-common)** Common resources for a Liger app. [![Build Status](https://api.travis-ci.org/reachlocal/liger-common.png)](https://travis-ci.org/reachlocal/liger-common)
-- **[Liger iOS](https://github.com/reachlocal/liger-ios)** A native iOS library for Liger. [![Build Status](https://api.travis-ci.org/reachlocal/liger-ios.png)](https://travis-ci.org/reachlocal/liger-ios)
-- **[Liger Android](https://github.com/reachlocal/liger-android)** - A native Android library for Liger. *(TBA)*
+1. [Setting up your development environment for iOS]()
+2. [Setting up your development environment for HTML development]()
+3. [Creating your first Liger app skeleton for iOS]()
+4. [Writing a your first Liger app, the BBC tutorial]()
 
-## Getting Started
+Getting started on a Mac with Liger for Android
 
-To get started, try out the [tutorial](tutorial/1-getting-started.md), which will walk you through creating an application.
+1. [Setting up your development environment for Android]()
+2. [Setting up your development environment for HTML development]()
+3. [Creating your first Liger app skeleton for Android]()
+4. [Writing a your first Liger app, the BBC tutorial]()
 
-Then, check out the following documention:
+## Writing Liger apps
 
-* [Web Docs](web)
-* [iOS Docs](ios)
-* [Android Docs](android)
+Here we share little helpful tutorials on how we develop Liger applications.
+
+* [Debugging Javascript with Safari and the iPhone Simulator]()
+* [Xcode and how you add files]()
+
+# APIs and file formats
+
+* How to edit your [app.json]() file
+
+# Advanced topics
+
+## iOS specific
+
+* Custom app delegates
+* Writing custom native iOS pages
