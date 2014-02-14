@@ -17,4 +17,4 @@ Getting started on a Mac with Liger for Android
 
 ---
 
-[Home](..)
+[Home]()
