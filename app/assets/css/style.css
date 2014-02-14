@@ -1,0 +1,28 @@
+
+/* Hello World Styles */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+html, body {height:100%;}
+body {
+	padding-top: 25%;
+  	margin: 0;
+	background: rgb(236,236,236); /* Old browsers */
+	background: -moz-linear-gradient(-45deg, rgba(236,236,236,1) 0%, rgba(236,236,236,1) 40%, rgba(199,199,199,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(236,236,236,1)), color-stop(40%,rgba(236,236,236,1)), color-stop(100%,rgba(199,199,199,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(-45deg, rgba(236,236,236,1) 0%,rgba(236,236,236,1) 40%,rgba(199,199,199,1) 100%); /* Chrome10+,Safari5.1+ */
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+	color: #b6b8bb;
+	font-weight: normal;
+	font-size: 1.2em;
+	text-align: center;
+}
+.hello {
+	width: 116px;
+	margin: 0 auto;
+}
