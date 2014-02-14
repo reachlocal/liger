@@ -16,7 +16,3 @@ Once your project is up and running here is how to begin working with Liger. Lig
 6. In the hello.html, initialize the liger app, by calling PAGE.initialize("hello");
 7. At this point add your html via whatever method you're most comfortable. This repo (link) shows examples using Handlebars, Angular.js, Underscore and plain HTML.
 8. In your hello.js add any bindings, animations, etc., that bring your idea to life.
-
----
-
-[Home](/) | Back to [Android](/tutorial/2-android.md) | Back to [iOS](/tutorial/2-ios.md)

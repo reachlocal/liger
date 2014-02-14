@@ -219,7 +219,3 @@ If the app doesn't start as it should, make sure you have an iPhone Simulator se
 If you have set up your iOS device for development you can hook it up with a cable, select iOS as the target, and press the play button. This will install and start the app on your device.
 
 Tip, if your html/css/js changes doesn't seem to take effect, try cleaning the project (under the Product menu, for a deeper clean press option before selecting clean) and run it again. This seems to be an Xcode related issue and we are hoping Apple will fix it in a future release.
-
----
-
-[Home](/) | Back to [Getting Started](/tutorial/1-getting-started.md)

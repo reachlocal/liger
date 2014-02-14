@@ -25,7 +25,3 @@ If you don't plan on using Ruby for anything other than the tools you need for L
 ## Using RVM
 
 Link to RVM page, common with RoR developers, more advanced, tip to use .ruby-version / .ruby-gemset.
-
----
-
-[Home]() | Up to [Tutorial](/tutorial)
