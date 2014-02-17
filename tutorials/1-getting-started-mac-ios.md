@@ -37,16 +37,24 @@ It's time to get you set up to develop Liger iOS apps on a Mac. You can set your
 ![Xcode](/media/tutorials/1-getting-started-mac-ios/XcodeToolsFail.png)
 
 
-# Ruby
+# Ruby and Cocoapods
 
-## Build in
+It's recommended to keep up to date with [Cocoapods](http://cocoapods.org) at all times. Make it part of your routine to keep it updated.
+
+## Option 1: Build in
 
 If you don't plan on using Ruby for anything other than the tools you need for Liger you can install using the built in Ruby.
 
 * Start terminal
-* Type `gem install cocoapods`
-* Type `pod setup`
+* Type `sudo gem install cocoapods`
+* OS X is going to ask for your account's password so it can install the gem as root using [sudo](https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man8/sudo.8.html)
+* You might be asked to overwrite certain files, only do this is if you feel comfortable about doing that. If not option 2 might be for you.
+* Type `pod setup` in your Terminal window to set up cocoapods
 
-## Using RVM
+## Option 2: Using RVM
 
-Link to RVM page, common with RoR developers, more advanced, tip to use .ruby-version / .ruby-gemset.
+Using a version manager for Ruby is more involved for a beginner but it has a lot of advantages. Another upside is that there is a wealth of information about RVM online. It can be quite helpful to make use of the [.ruby-version and .ruby-gemset](http://rvm.io/workflow/projects) files.
+
+* [Install RVM](http://rvm.io)
+* Install CocoaPods `gem install cocoapods` (using [gemsets](http://rvm.io/gemsets/) you get more control of what you install)
+* Type `pod setup` in your Terminal window to set up cocoapods
