@@ -4,9 +4,18 @@ It's time to get you set up to develop Liger iOS apps on a Mac. You can set your
 
 # Xcode
 
-* Get Apple Account
-* Start app store
-* Download XCode
+* Make sure you have an [Apple ID](http://appleid.apple.com). Chances are good that you already have one as the one Apple account is used for all things Apple. 
+* Start the App Store, search for XCode, and download XCode
+
+![AppStore](/media/tutorials/1-getting-started-mac-ios/AppStore.png)
+
+![AppStore](/media/tutorials/1-getting-started-mac-ios/AppStoreInstall.png)
+
+* Enter your credentials if you haven't already
+
+![Credentials](media/tutorials/1-getting-started-mac-ios/AppStoreAppleID.png)
+
+
 * Start Xcode
 * Install simulator (prompted when Xcode starts)
 * Verify that you do indeed have version 5.0.2 or newer (screenshot!)
