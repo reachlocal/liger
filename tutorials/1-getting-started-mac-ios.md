@@ -13,13 +13,29 @@ It's time to get you set up to develop Liger iOS apps on a Mac. You can set your
 
 * Enter your credentials if you haven't already
 
-![Credentials](media/tutorials/1-getting-started-mac-ios/AppStoreAppleID.png)
+![Credentials](/media/tutorials/1-getting-started-mac-ios/AppStoreAppleID.png)
 
-
-* Start Xcode
-* Install simulator (prompted when Xcode starts)
+* Depending on your internet speed it can take quite a while to install Xcode
+* Start Xcode, ready the license agreement and decide if you want to agree to it
+* OS X will ask you for your password so it can install additional components
 * Verify that you do indeed have version 5.0.2 or newer (screenshot!)
-* Install command line tools (start terminal and type clang)
+
+![Xcode](/media/tutorials/1-getting-started-mac-ios/Xcode.png)
+
+* Install the command line tools. Start by starting Terminal.app and type `xcode-select --install`
+
+![Xcode](/media/tutorials/1-getting-started-mac-ios/XcodeTools1.png)
+
+![Xcode](/media/tutorials/1-getting-started-mac-ios/XcodeTools2.png)
+
+![Xcode](/media/tutorials/1-getting-started-mac-ios/XcodeTools3.png)
+
+![Xcode](/media/tutorials/1-getting-started-mac-ios/XcodeTools4.png)
+
+* If this shows up you have probably already installed the tools
+
+![Xcode](/media/tutorials/1-getting-started-mac-ios/XcodeToolsFail.png)
+
 
 # Ruby
 
