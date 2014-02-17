@@ -18,7 +18,7 @@ It's time to get you set up to develop Liger iOS apps on a Mac. You can set your
 * Depending on your internet speed it can take quite a while to install Xcode
 * Start Xcode, ready the license agreement and decide if you want to agree to it
 * OS X will ask you for your password so it can install additional components
-* Verify that you do indeed have version 5.0.2 or newer (screenshot!)
+* Verify that you do indeed have version 5.0.2 or newer by opening the about window. Liger will *not* work with older versions of Xcode
 
 ![Xcode](/media/tutorials/1-getting-started-mac-ios/Xcode.png)
 
