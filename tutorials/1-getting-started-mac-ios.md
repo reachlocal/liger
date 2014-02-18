@@ -41,7 +41,7 @@ It's time to get you set up to develop Liger iOS apps on a Mac. You can set your
 
 It's recommended to keep up to date with [Cocoapods](http://cocoapods.org) at all times. Make it part of your routine to keep it updated.
 
-## Option 1: Build in
+## Option 1: Built in
 
 If you don't plan on using Ruby for anything other than the tools you need for Liger you can install using the built in Ruby.
 
