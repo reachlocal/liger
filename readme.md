@@ -4,7 +4,7 @@ Liger is a lightweight open source framework that helps you develop hybrid apps 
 
 If this is your first time looking at Liger, take a look at our [Liger GitHub page](http://reachlocal.github.io/liger/). If you want to get started with Liger we have a set of tutorials to help you out, and if you are already familiar there are API documentation and advanced topics to dig into. If you have any questions feel free to contact us!
 
-Liger can be found on twitter as [@ligerdevs](https://twitter.com/ligerdevs) and the people behind are:
+Liger can be found on twitter as [@ligermobiledevs](https://twitter.com/ligermobiledevs) and the people behind are:
 
 * John Gustafsson [@flekkzo](https://twitter.com/flekkzo)
 * Brad Marsh [@Bbqhacker](https://twitter.com/Bbqhacker)
