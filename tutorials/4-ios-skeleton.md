@@ -1,4 +1,4 @@
-# Step 4: Creating an iOS App
+# Step 4: Creating a LigerMobile iOS App
 
 ## Create a project
 

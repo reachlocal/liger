@@ -1,4 +1,6 @@
-Now that you're creating code in Liger, you're going to need to lift the hood every once in a while and take a look at the details of the running code. Safari developer tools to the rescue!
+# Debugging Javascript with Safari and the iPhoneSimulator
+
+Now that you're creating code in LigerMobile, you're going to need to lift the hood every once in a while and take a look at the details of the running code. Safari developer tools to the rescue!
 
 # Get the Develop menu
 1. Open Safari on your desktop. I know... you're now saying, "Wait, I want to debug the code running in the simulator, don't you want me to open that Safari?" No, you'll use safari on your desktop to remotely connect to the safari instance running in the simulator.

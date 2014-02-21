@@ -1,10 +1,10 @@
-# Step 4: Creating an Android app skeleton
+# Step 4: Creating a LigerMobile Android app skeleton
 
 Coming soon!
 
 ## Next steps
 
-Now that you've got a running Liger app, it's time to learn about adding some [web content](3-web.md).
+Now that you've got a running LigerMobile app, it's time to learn about adding some [web content](3-web.md).
 
 
 ---

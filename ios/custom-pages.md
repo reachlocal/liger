@@ -1,6 +1,6 @@
 # Creating your own iOS custom pages
 
-So you want to write your own Liger pages in Objective-C? Then you've come to the right place! Using the standard Liger page **browser** as an example we'll walk you through how it works.
+So you want to write your own LigerMobile pages in Objective-C? Then you've come to the right place! Using the standard LigerMobile page **browser** as an example we'll walk you through how it works.
 
 This guide will assume that you are familiar with Xcode and iOS.
 
@@ -18,7 +18,7 @@ The first thing you want to do is create a new **UIViewController**, name it som
 
 ## Page name
 
-The next step is making sure the Liger framework finds your custom page. Decide on a name and implement the **nativePage** class method. This is the string you will use in **openPage** and **openDialog** to open up your page. This so that it can be opened both from _Javascript_ and _Objective-C_. You can create and use it as a normal **UIViewController** as well as **LGRViewController** inherits from it. A nice bonus is that the functionality to open pages and dialogs comes from **LGRViewController** so if you want to open an _HTML_ page (or another custom page) from your custom page you can do so. This way your own custom pages aren't relegated to being leaves in the UI's navigational model.
+The next step is making sure the LigerMobile framework finds your custom page. Decide on a name and implement the **nativePage** class method. This is the string you will use in **openPage** and **openDialog** to open up your page. This so that it can be opened both from _Javascript_ and _Objective-C_. You can create and use it as a normal **UIViewController** as well as **LGRViewController** inherits from it. A nice bonus is that the functionality to open pages and dialogs comes from **LGRViewController** so if you want to open an _HTML_ page (or another custom page) from your custom page you can do so. This way your own custom pages aren't relegated to being leaves in the UI's navigational model.
 
 Here's the relevant code from **LGRBrowserViewController**:
 
@@ -51,12 +51,11 @@ Here's the relevant code from **LGRBrowserViewController** with the custom init 
 
 ## Write your new custom page!
 
-The sky's the limit! You can add or do anything you normally can do with a **UIViewController**. If you want to embed another **UIViewController** or class inheriting from it you can do so as a child view controller. This is how we implement the HTML controller ourselves. It's also highly recommended that you use the built in methods to open and close pages and dialogs rather than using the **UIViewController**'s methods directly. This to avoid bugs when using the page inside of the Liger framework.
+The sky's the limit! You can add or do anything you normally can do with a **UIViewController**. If you want to embed another **UIViewController** or class inheriting from it you can do so as a child view controller. This is how we implement the HTML controller ourselves. It's also highly recommended that you use the built in methods to open and close pages and dialogs rather than using the **UIViewController**'s methods directly. This to avoid bugs when using the page inside of the LigerMobile framework.
 
 That said, you might want to provide even more advanced functionality. If that's the case try to use the
 methods in **LGRViewController** and overload them where appropriate. You can provide custom animations for a
-**UINavigationController** push of a view controller this way for instance. Don't be afraid to look at Liger's
-source code to figure this out either.
+**UINavigationController** push of a view controller this way for instance. Don't be afraid to look at LigerMobile's source code to figure this out either.
 
 ## Giving back
 
@@ -65,13 +64,13 @@ That way others can include your work easily. Maybe you have a service you want 
 hardware you sell and a custom page is a great way to expose that. Or your custom page is just generally very
 cool and useful! Don't forget that you can distribute pre-made HTML pages as well. Remember, everyone's invited!
 
-# But dear Liger developers, I already have a UIViewController!
+# But dear LigerMobile developers, I already have a UIViewController!
 
-Maybe it's already written, maybe you can't change it for some reason. Maybe even worse, you don't even have the source code! Is all lost? No, you are in luck! Apple provides a number of a useful dialogs and we expose them in Liger. The caveat is that they have to be leaf nodes, as they don't know how to open up a new page. The good news is that it's pretty much always the case anyways.
+Maybe it's already written, maybe you can't change it for some reason. Maybe even worse, you don't even have the source code! Is all lost? No, you are in luck! Apple provides a number of a useful dialogs and we expose them in LigerMobile. The caveat is that they have to be leaf nodes, as they don't know how to open up a new page. The good news is that it's pretty much always the case anyways.
 
 ## Show what do I do then?
 
-You create a class that uses the **LGRImportedViewConctroller** (importing into Liger) protocol:
+You create a class that uses the **LGRImportedViewConctroller** (importing into LigerMobile) protocol:
 
 ```objective-c
 	#import "LGRImportedViewController.h"
@@ -81,7 +80,7 @@ You create a class that uses the **LGRImportedViewConctroller** (importing into 
 	@end
 ```
 
-And as you might have figured out we are using the iOS message controller as an example. This is included in Liger so you can go look at the full source code for the details.
+And as you might have figured out we are using the iOS message controller as an example. This is included in LigerMobile so you can go look at the full source code for the details.
 
 The next step is giving it a page name:
 
@@ -126,7 +125,7 @@ Something worth nothing, if you run into the same situation is this line:
 	}
 ```
 
-When the message has been sent we dismiss the view controller, and when that has finished we send the **dialogClosed:** message with our result. This way, the parent page gets the information back in the normal Liger way, and both custom pages and HTML pages know what to do. Some dialogs are going to be far more interesting, others more mundane. For a really interesting use look at the imported image dialog's callback:
+When the message has been sent we dismiss the view controller, and when that has finished we send the **dialogClosed:** message with our result. This way, the parent page gets the information back in the normal LigerMobile way, and both custom pages and HTML pages know what to do. Some dialogs are going to be far more interesting, others more mundane. For a really interesting use look at the imported image dialog's callback:
 
 ```objective-c
 	- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
