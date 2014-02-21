@@ -41,16 +41,3 @@ Underscore and plain HTML.
 
 2. In your hello.js add any bindings, animations, etc., that bring your idea to life.
 
-
-# To Run The Tests
-
-To run the tests you must have node.js installed.  If you have it installed skip this step, if not use brew to install it.
-
-		brew install node
-
-Then run.
-
-		npm install
-		npm test
-
-
