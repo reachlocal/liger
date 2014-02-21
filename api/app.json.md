@@ -1,12 +1,12 @@
 # App.json
 
-App.json is a [json](http://www.json.org) file that defines your application. It lives in the root of your app folder and defines things such as the root pages of your application and how it looks. A basic app.json file can be found in [Liger Common](https://github.com/reachlocal/liger-common).
+App.json is a [json](http://www.json.org) file that defines your application. It lives in the root of your app folder and defines things such as the root pages of your application and how it looks. A basic app.json file can be found in [LigerMobile Common](https://github.com/reachlocal/liger-common).
 
 ## What is in it?
 
 ### appFormatVersion
 
-This is the version of the app.json file. If your application complains that you have the wrong version refer to this documentation for upgrade instructions. Only after you have upgraded the file should you change the version number to the most current one (make sure your copy of Liger is up to date!). So why do we have this? Simply to give you, the user of Liger, a heads up when we change the file format in some way. We might rearrange something, add something, or deprecate something old. To keep your app running as smoothly as possbile, and avoid silent faliures, Liger only accepts the proper file version and format.
+This is the version of the app.json file. If your application complains that you have the wrong version refer to this documentation for upgrade instructions. Only after you have upgraded the file should you change the version number to the most current one (make sure your copy of LigerMobile is up to date!). So why do we have this? Simply to give you, the user of LigerMobile, a heads up when we change the file format in some way. We might rearrange something, add something, or deprecate something old. To keep your app running as smoothly as possbile, and avoid silent faliures, LigerMobile only accepts the proper file version and format.
 
 ### rootPage
 
@@ -43,7 +43,7 @@ The second array should have objects with these keys in them:
 
 ### Appearance
 
-This sets a number of colors in your app. This so you can theme the Liger pieces to work well with your app. All the colors are specified the same way as [CSS colors](http://www.w3.org/Style/CSS/) are. All to improve the familiarty for those of you arriving from a strict HTML background.
+This sets a number of colors in your app. This so you can theme the LigerMobile pieces to work well with your app. All the colors are specified the same way as [CSS colors](http://www.w3.org/Style/CSS/) are. All to improve the familiarty for those of you arriving from a strict HTML background.
 
 You can skip any and all values (they all have defaults) and some override others so be careful.
 

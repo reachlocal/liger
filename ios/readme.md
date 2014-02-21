@@ -1,6 +1,6 @@
 # iOS
 
-Here you can find several topics on Liger-specific iOS development.
+Here you can find several topics on LigerMobile-specific iOS development.
 
 
 ---

@@ -1,6 +1,6 @@
 # Xcode
 
-[Apple does document](https://developer.apple.com/library/ios/recipes/xcode_help-structure_navigator/articles/Adding_an_Existing_File_or_Folder.html) how you import files and folders into Xcode. This often isn't enough to get people going though and I've noticed that one of the biggest issues beginners have with Xcode is how this works. As Liger is all about making things easier to do and understand we'll present a little tutorial that hopefully can shed some light on this the darkest of mysteries. I like to call it, yellow and blue folders.
+[Apple does document](https://developer.apple.com/library/ios/recipes/xcode_help-structure_navigator/articles/Adding_an_Existing_File_or_Folder.html) how you import files and folders into Xcode. This often isn't enough to get people going though and I've noticed that one of the biggest issues beginners have with Xcode is how this works. As LigerMobile is all about making things easier to do and understand we'll present a little tutorial that hopefully can shed some light on this the darkest of mysteries. I like to call it, yellow and blue folders.
 
 # Xcode file structure
 
@@ -10,7 +10,7 @@ This can seem strange at first, as it would seem easier to just copy the structu
 
 # How to add
 
-You can add files or folders in several ways. Either from the File menu, by dragging them in, or by using the right click menu. They all have their quirks but if you don't already have a favorite I recommend right clicking like in our [tutorial for creating an iOS app](https://github.com/reachlocal/liger/wiki/Create-iOS-app):
+You can add files or folders in several ways. Either from the File menu, by dragging them in, or by using the right click menu. They all have their quirks but if you don't already have a favorite I recommend right clicking like in our [tutorial for creating an iOS app](https://github.com/reachlocal/liger/blob/master/tutorials/4-ios-skeleton.md):
 
 ![Screenshot](/media/ios/AddFiles.png)
 
@@ -38,9 +38,9 @@ Instead of adding in the folder (and subfolders) as groups you will create a so 
 
 Caveat. The files will only be copied, not processed or compiled in any way. Do not try to use this as a "work around" to "just using the filesystem". In fact avoid this whole option unless you have a specific reason to use it.
 
-# For those using Liger
+# For those using LigerMobile
 
-We add the app folder as a folder reference, a blue folder, as what we want in this case is that folder and everything in it, subfolders and all. This is because this is our HTML based app and we to preserve the folder structure. This means you can edit the content of this folder with your favorite text editor and add/remove subfolders and files at your hearts content. Liger will look in this folder to find all the HTML app files.
+We add the app folder as a folder reference, a blue folder, as what we want in this case is that folder and everything in it, subfolders and all. This is because this is our HTML based app and we to preserve the folder structure. This means you can edit the content of this folder with your favorite text editor and add/remove subfolders and files at your hearts content. LigerMobile will look in this folder to find all the HTML app files.
 
 Tip: Sometimes Xcode doesn't pick up on changes in blue folders (no idea why) and what we've found to work is to clean the app before you run it. Remember that the files you edit gets copied into the .app and it's the copies the app uses, so it has to be copied over (which is done by building the app).
 

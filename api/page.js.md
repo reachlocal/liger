@@ -2,11 +2,10 @@
 	
 ## How to use 
 
-In order to allow both the Cordova and Liger frameworks to initialize properly, we recommend using the following template for each 
-of your app's page's javascript.
+In order to allow both the Cordova and LigerMobile frameworks to initialize properly, we recommend using the following template for each of your app's page's javascript.
 
 ``` javascript
-//  This will be called by the included page.js as part of the liger initialization.
+//  This will be called by the included page.js as part of the LigerMobile initialization.
 PAGE.hello = function(){
   		HELLO.initialize();
 }
@@ -52,7 +51,7 @@ var HELLO = {
 		
 # API
 
-Below is a list of the most commonly used functions that Liger provides.  In most cases you simply call the method with the required arguments, however, in the case of the PAGE.childUpdates and PAGE.closeDialogArguments functions, the common practitice is to overwrite them in the calling pages javascript.
+Below is a list of the most commonly used functions that LigerMobile provides.  In most cases you simply call the method with the required arguments, however, in the case of the PAGE.childUpdates and PAGE.closeDialogArguments functions, the common practitice is to overwrite them in the calling pages javascript.
 
 - Open New Page Functionality
 

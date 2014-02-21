@@ -1,3 +1,3 @@
-# Step 3 Writing a Liger app
+# Step 3 Writing a LigerMobile app
 
-We have created a great tutorial where we go through building an HTML Liger app step by step. You will start out with a skeleton app and then piece by piece build it into a fully functioning app. Make sure you have set up your Liger development environment and then head over to the [Liger app tutorial](). The [readme.md]() is a step by step guide and by git cloning the repo you have all the code for all the steps.
+We have created a great tutorial where we go through building an HTML LigerMobile app step by step. You will start out with a skeleton app and then piece by piece build it into a fully functioning app. Make sure you have set up your LigerMobile development environment and then head over to the [LigerMobile app tutorial](). The [readme.md]() is a step by step guide and by git cloning the repo you have all the code for all the steps.
