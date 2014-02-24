@@ -189,7 +189,7 @@ Right click on your project and select "Add Files…".
 Find and select the app folder and add the files.
 Make sure you have selected the right options for Destination and Folders.
 
-![Screenshot](/media/tutorial/ios/4-add-files/1-add-files.png)
+![Screenshot](/media/tutorial/ios/4-add-files/2-complete.png)
 
 The next step is to copy the supplied cordova.js from the Pod to your app folder. I found mine under _Pods/Cordova/CordovaLib/cordova.js_ but YMMV. Copy _cordova.js_ to _app/vendor/cordova.js_.
 
@@ -206,7 +206,7 @@ To summarize:
 
 ## Run the app
 
-If all went well you should be able to press the big play button in the top right (or just press *cmd-r*, it's a well worth it to remember shortcut) and run the app!
+If all went well you should be able to press the big play button in the top left (or just press *cmd-r*, it's a well worth it to remember shortcut) and run the app!
 
 This should start the iPhone Simulator, install your app, and start it.
 
