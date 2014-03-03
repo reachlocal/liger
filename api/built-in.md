@@ -4,7 +4,11 @@ The built in pages can be opened using javascript with the PAGE.openPage or PAGE
 
 # Pages
 
-The pages can be opened as a normal page or as a dialog.
+The pages can be opened as a normal page or as a dialog. For example:
+
+```javascript
+PAGE.openPage('Link', 'browser', {link: "https://github.com/reachlocal/liger/blob/master/readme.md"});
+```
 
 ## browser
 
@@ -12,7 +16,7 @@ Available on iOS and Android.
 
 An in app browser to view web pages rather than LigerMobile pages. For instance opening a link in a message to be viewed inside of the app instead of in an external browser.
 
-```json
+```javascript
 {
 	"link": string, // http(s) link to the webpage
 	"allowZoom": boolean // true or false to allow or disallow zoom
@@ -21,8 +25,21 @@ An in app browser to view web pages rather than LigerMobile pages. For instance 
 
 # Pages intended to be opened as dialogs
 
-Trying to open these as a normal page will more than likely fail outright. They are meant to be opened as a dialog natively and will assert or fail in some other way if used incorrectly.
+Trying to open these as a normal page will more than likely fail outright. They are meant to be opened as a dialog natively and will assert or fail in some other way if used incorrectly. Be wary of this if you open any of these pages from a menu item.
 
+For example:
+
+```javascript
+var args = {
+	toRecipients : "test@test.com, example@example.com",
+	ccRecipients : "some@one.com",
+	bccRecipient : "example@secret.com"
+	subject: "Demoing the email functionality",
+	body: "Sent by, LigerMobile",
+	html": false
+};
+PAGE.openDialog('Email', 'email', args);
+```
 
 ## email
 
@@ -30,7 +47,7 @@ Available on iOS and Android.
 
 Opens an email dialog that uses email account associated with the phone to send the email.
 
-```json
+```javascript
 {
 	"toRecipients": string, // comma separated list of emails
 	"ccRecipients": string, // comma separated list of emails
@@ -43,7 +60,7 @@ Opens an email dialog that uses email account associated with the phone to send 
 
 Result on iOS.
 
-```json
+```javascript
 {
 	"result": number, // The error code
 	"error": string, // The error in text
@@ -56,7 +73,7 @@ Available on iOS.
 
 Let's the user make a Facebook post if the phone has a Facebook account set up.
 
-```json
+```javascript
 {
 	"text": string, // The default text
 }
@@ -64,7 +81,7 @@ Let's the user make a Facebook post if the phone has a Facebook account set up.
 
 Result on iOS.
 
-```json
+```javascript
 {
 	"result": number, // The result code
 }
@@ -76,14 +93,14 @@ Available on iOS.
 
 Opens the image select dialog. This page is very much a proof of concept and could take more parameters.
 
-```json
+```javascript
 {
 {
 ```
 
 Result on iOS.
 
-```json
+```javascript
 {
 	"MediaType": string, // type of media returned
 	"URL": string, // url to the media selected
@@ -98,7 +115,7 @@ Available on iOS.
 
 Let's the user send an iOS text message, if the user has an account set up.
 
-```json
+```javascript
 {
 	"recipients": string, // comma separated list of emails
 	"subject": string, // the subject of the email
@@ -108,7 +125,7 @@ Let's the user send an iOS text message, if the user has an account set up.
 
 Result on iOS.
 
-```json
+```javascript
 {
 	"result": number, // The result code
 }
@@ -120,7 +137,7 @@ Available on iOS.
 
 Let's the user make a Sina Weibo post if the phone has a Sina Weibo account set up and Weibo is present on the phone.
 
-```json
+```javascript
 {
 	"text": string, // The default text
 }
@@ -128,7 +145,7 @@ Let's the user make a Sina Weibo post if the phone has a Sina Weibo account set 
 
 Result on iOS.
 
-```json
+```javascript
 {
 	"result": number, // The result code
 }
@@ -140,7 +157,7 @@ Available on iOS.
 
 Let's the user make a Tencent Weibo post if the phone has a Tencent Weibo account set up and Weibo is present on the phone.
 
-```json
+```javascript
 {
 	"text": string, // The default text
 }
@@ -148,7 +165,7 @@ Let's the user make a Tencent Weibo post if the phone has a Tencent Weibo accoun
 
 Result on iOS.
 
-```json
+```javascript
 {
 	"result": number, // The result code
 }
@@ -160,7 +177,7 @@ Available on iOS.
 
 Let's the user make a twitter post if the phone has a twitter account set up.
 
-```json
+```javascript
 {
 	"text": string, // The default text
 }
@@ -168,7 +185,7 @@ Let's the user make a twitter post if the phone has a twitter account set up.
 
 Result on iOS.
 
-```json
+```javascript
 {
 	"result": number, // The result code
 }
