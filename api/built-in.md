@@ -1,8 +1,8 @@
 # Built in pages
 
-The built in pages can be opened using javascript with the PAGE.openPage or PAGE.openDialog methods. The name of each page is in the list below tougher with some information on the input parameters. Most of these has been implemented as proof of concept and both lack some features as well as might have problems. Please file an issue if you run into anything that seems odd or doesn't work.
+The built in pages can be opened using javascript with the PAGE.openPage or PAGE.openDialog methods. The name of each page is in the list below together with some information on the input parameters. Most of these have been implemented as proof of concept and both lack some features as well as might have problems. Please file an issue if you run into anything that seems odd or doesn't work.
 
-# Pages
+## General Pages
 
 The pages can be opened as a normal page or as a dialog. For example:
 
@@ -10,7 +10,7 @@ The pages can be opened as a normal page or as a dialog. For example:
 PAGE.openPage('Link', 'browser', {link: "https://github.com/reachlocal/liger/blob/master/readme.md"});
 ```
 
-## browser
+### browser
 
 Available on iOS and Android.
 
@@ -23,7 +23,7 @@ An in app browser to view web pages rather than LigerMobile pages. For instance 
 }
 ```
 
-# Pages intended to be opened as dialogs
+## Dialog only Pages
 
 Trying to open these as a normal page will more than likely fail outright. They are meant to be opened as a dialog natively and will assert or fail in some other way if used incorrectly. Be wary of this if you open any of these pages from a menu item.
 
@@ -41,7 +41,7 @@ var args = {
 PAGE.openDialog('Email', 'email', args);
 ```
 
-## email
+### email
 
 Available on iOS and Android.
 
@@ -67,11 +67,11 @@ Result on iOS.
 }
 ```
 
-## facebook
+### facebook
 
 Available on iOS.
 
-Let's the user make a Facebook post if the phone has a Facebook account set up.
+Lets the user make a Facebook post if the phone has a Facebook account set up.
 
 ```javascript
 {
@@ -87,7 +87,7 @@ Result on iOS.
 }
 ```
 
-## image
+### image
 
 Available on iOS.
 
@@ -109,11 +109,11 @@ Result on iOS.
 ```
 
 
-## message
+### message
 
 Available on iOS.
 
-Let's the user send an iOS text message, if the user has an account set up.
+Lets the user send an iOS text message, if the user has an account set up.
 
 ```javascript
 {
@@ -131,11 +131,11 @@ Result on iOS.
 }
 ```
 
-## sinaweibo
+### sinaweibo
 
 Available on iOS.
 
-Let's the user make a Sina Weibo post if the phone has a Sina Weibo account set up and Weibo is present on the phone.
+Lets the user make a Sina Weibo post if the phone has a Sina Weibo account set up and Weibo is present on the phone.
 
 ```javascript
 {
@@ -151,11 +151,11 @@ Result on iOS.
 }
 ```
 
-## tencentweibo
+### tencentweibo
 
 Available on iOS.
 
-Let's the user make a Tencent Weibo post if the phone has a Tencent Weibo account set up and Weibo is present on the phone.
+Lets the user make a Tencent Weibo post if the phone has a Tencent Weibo account set up and Weibo is present on the phone.
 
 ```javascript
 {
@@ -171,11 +171,11 @@ Result on iOS.
 }
 ```
 
-## twitter
+### twitter
 
 Available on iOS.
 
-Let's the user make a twitter post if the phone has a twitter account set up.
+Lets the user make a twitter post if the phone has a twitter account set up.
 
 ```javascript
 {
