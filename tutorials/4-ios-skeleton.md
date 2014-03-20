@@ -34,14 +34,14 @@ cd your_project_folder
 pod init
 ```
 
-Open the Podfile you just created and add in Liger:
+Open the Podfile you just created and add in LigerMobile:
 
 ```ruby
 # Uncomment this line to define a global platform for your project
 # platform :ios, "6.0"
 
 target "ExampleIOS" do
-    pod 'Liger', git: 'https://github.com/reachlocal/liger-ios'
+    pod 'LigerMobile', git: 'https://github.com/reachlocal/liger-ios'
 end
 
 target "ExampleIOSTests" do
@@ -63,7 +63,7 @@ This creates a workspace and installs all the pods in your Podfile as well as an
 
 Open up your *xcworkspace*. It should be named something similar to ExampleIOS.xcworkspace. As mentioned previously you should not open the project file. Both your project and the pod project are included in the workspace, and without the pods your app won't work.
 
-## Using Liger's app delegate
+## Using LigerMobile's app delegate
 
 Open up your project's **main.m**. You can do this either by selecting it in the list of files on the left (Hint: you can filter file names at the bottom of the list) or press **shift+command+o** and type 'main.m'. Working with large code bases it can be sometimes be difficult to find files and **shift+command+o** can make your life easier.
 
@@ -117,7 +117,7 @@ int main(int argc, char * argv[])
 
 ## Add config.xml
 
-Liger is currently using Cordova to send messages between the web views and the native portions. Cordova is included as a dependency in the Liger cocoapod so you will get the same version as we have. You do on the other hand have to supply a *config.xml* file. Using this as a template save it as a file named *config.xml* and include it in your project.
+LigerMobile is currently using Cordova to send messages between the web views and the native portions. Cordova is included as a dependency in the LigerMobile cocoapod so you will get the same version as we have. You do on the other hand have to supply a *config.xml* file. Using this as a template save it as a file named *config.xml* and include it in your project.
 
 First, right-click your ExampleiOS project on the left-hand side and add a file:
 
@@ -180,7 +180,7 @@ Add the following content:
 
 The HTML part of your app lives in a folder called _app_. What we need to do is to create that folder on disk and import it into Xcode so it moves those files into your app when it's compiled.
 
-A good starting point for your app is using the app folder from [Liger common](https://github.com/reachlocal/liger-common/). It contains the necessary files for Liger as well as a simple hello world page to start from. Download or clone the repo from [Github](https://github.com/reachlocal/liger-common/) and copy the app folder into your project folder.
+A good starting point for your app is using the app folder from [Liger common](https://github.com/reachlocal/liger-common/). It contains the necessary files for LigerMobile as well as a simple hello world page to start from. Download or clone the repo from [Github](https://github.com/reachlocal/liger-common/) and copy the app folder into your project folder.
 
 Right click on your project and select "Add Files…".
 
@@ -201,7 +201,7 @@ Now you should have a skeleton hello world app.
 To summarize:
 
 1. Create app folder
-1. Copy the template app from Liger Common
+1. Copy the template app from LigerMobile Common
 1. Copy cordova.js to app/vendor
 
 ## Run the app
