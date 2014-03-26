@@ -41,7 +41,7 @@ Open the Podfile you just created and add in LigerMobile:
 # platform :ios, "6.0"
 
 target "ExampleIOS" do
-    pod 'LigerMobile', :git=>'https://github.com/reachlocal/liger-ios'
+    pod 'LigerMobile', :git => 'https://github.com/reachlocal/liger-ios'
 end
 
 target "ExampleIOSTests" do
