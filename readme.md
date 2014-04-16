@@ -24,7 +24,7 @@ Liger will give you all the tools to get going.
 - **Cordova** - the go-to tool for accessing native device functions (bundled with Liger).
 - **[Liger Common](https://github.com/reachlocal/liger-common)** Common resources for a Liger app. [![Build Status](https://api.travis-ci.org/reachlocal/liger-common.png)](https://travis-ci.org/reachlocal/liger-common)
 - **[Liger iOS](https://github.com/reachlocal/liger-ios)** A native iOS library for Liger. [![Build Status](https://api.travis-ci.org/reachlocal/liger-ios.png)](https://travis-ci.org/reachlocal/liger-ios)
-- **[Liger Android](https://github.com/reachlocal/liger-android)** - A native Android library for Liger. *(TBA)*
+- **[Liger Android](https://github.com/reachlocal/liger-android)** - A native Android library for Liger.
 
 ## Getting Started
 
