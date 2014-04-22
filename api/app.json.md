@@ -8,7 +8,7 @@ App.json is a [json](http://www.json.org) file that defines your application. It
 
 This is the version of the app.json file. If your application complains that you have the wrong version refer to this documentation for upgrade instructions. Only after you have upgraded the file should you change the version number to the most current one (make sure your copy of LigerMobile is up to date!). So why do we have this? Simply to give you, the user of LigerMobile, a heads up when we change the file format in some way. We might rearrange something, add something, or deprecate something old. To keep your app running as smoothly as possbile, and avoid silent faliures, LigerMobile only accepts the proper file version and format.
 
-### notification
+### notifications
 
 true if you want to turn on push notifications, false if not. If the key is missing it will be interpreted as false for now, but it's recommended to add it anyways for future compatibility.
 
@@ -84,7 +84,7 @@ You can skip any and all values (they all have defaults) and some override other
 
 Menu has been replaced by rootPage. The args that goes into root page for appMenu is the same as menu, with the addition of the title key and the removal of the iconText.
 
-notification added.
+notifications added.
 
 ### 4
 
