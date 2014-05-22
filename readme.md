@@ -58,7 +58,7 @@ Here we share little helpful tutorials on how we develop LigerMobile application
 
 If you want to dig deeper or want to contribute to LigerMobile yourself, or if you are just plain old curious, these are the GitHub repos that hosts the individual pieces of LigerMobile.
 
-- **[Liger Common](https://github.com/reachlocal/liger-common)** Common resources for a LigerMobile app. [![Build Status](https://api.travis-ci.org/reachlocal/liger-common.png)](https://travis-ci.org/reachlocal/liger-common)
-- **[Liger iOS](https://github.com/reachlocal/liger-ios)** A native iOS library for LigerMobile. [![Build Status](https://api.travis-ci.org/reachlocal/liger-ios.png)](https://travis-ci.org/reachlocal/liger-ios)
+- **[Liger Common](https://github.com/reachlocal/liger-common)** Common resources for a LigerMobile app. [![Build Status](https://travis-ci.org/reachlocal/liger-common.svg?branch=master)](https://travis-ci.org/reachlocal/liger-common)
+- **[Liger iOS](https://github.com/reachlocal/liger-ios)** A native iOS library for LigerMobile. [![Build Status](https://travis-ci.org/reachlocal/liger-ios.svg?branch=master)](https://travis-ci.org/reachlocal/liger-ios)
 - **[LIger Android](https://github.com/reachlocal/liger-android)** A native android library for LigerMobile. [![Build Status](https://travis-ci.org/reachlocal/liger-android.svg?branch=master)](https://travis-ci.org/reachlocal/liger-android)
 
