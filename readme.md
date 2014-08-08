@@ -12,6 +12,7 @@ LigerMobile can be found on twitter as [@ligermobiledevs](https://twitter.com/li
 * Robert Tomb [@bikeonastick](https://twitter.com/bikeonastick)
 * Tony Collen [@tcollen](https://twitter.com/tcollen)
 * Nathaniel Kofalt [@nkofalt](https://twitter.com/nkofalt)
+* Gary Moon
 
 # Tutorials
 ## Getting started
