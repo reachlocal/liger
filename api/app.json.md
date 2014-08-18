@@ -1,48 +1,24 @@
 # App.json
 
-App.json is a [json](http://www.json.org) file that defines your application. It lives in the root of your app folder and defines things such as the root pages of your application and how it looks. A basic app.json file can be found in [LigerMobile Common](https://github.com/reachlocal/liger-common).
+App.json is a [json](http://www.json.org) file that defines your application. It lives in the root of your app folder and defines things such as the root pages of your application and how it looks. A basic app.json file can be found in [LigerMobile Common](https://github.com/reachlocal/liger-common) and a more advanced, if a bit contrived, can be found int [LigerMobile iOS's test app](https://github.com/reachlocal/liger-ios/tree/master/LigerTestApp).
 
 ## What is in it?
 
 ### appFormatVersion
 
-This is the version of the app.json file. If your application complains that you have the wrong version refer to this documentation for upgrade instructions. Only after you have upgraded the file should you change the version number to the most current one (make sure your copy of LigerMobile is up to date!). So why do we have this? Simply to give you, the user of LigerMobile, a heads up when we change the file format in some way. We might rearrange something, add something, or deprecate something old. To keep your app running as smoothly as possbile, and avoid silent faliures, LigerMobile only accepts the proper file version and format.
+This is the version of the app.json file. If your application complains that you have the wrong version refer to this documentation for upgrade instructions. Only after you have upgraded the file should you change the version number to the most current one (make sure your copy of LigerMobile is up to date! But don't use pre-release versions.). So why do we have this? Simply to give you, the user of LigerMobile, a heads up when we change the file format in some way. We might rearrange something, add something, or deprecate something old. To keep your app running as smoothly as possbile, and avoid silent faliures, LigerMobile only accepts the proper file version and format.
 
 ### notifications
 
-true if you want to turn on push notifications, false if not. If the key is missing it will be interpreted as false for now, but it's recommended to add it anyways for future compatibility.
+true if you want to turn on push notifications, false if not. If the key is missing it will be interpreted as false for now, but it's recommended to add it anyways for future compatibility. Only available for iOS.
 
 ### rootPage
 
-* page - The name of the menu page. You can use "appMenu" for the built in menu.
-* accessibilityLabel - The accessibility label to use for testing with UIAutomation or any testing framework that uses UIAutomation
-* args - The items in the menu. Send to page as args in the same way as any other page.
+This will often be a **drawer** or **navigator**, but can be any page, even a single page. It's quite common that you will open several pages via the args to the root page. For instance a menu, a tab page, or a navigational interface with a rootPage itself.
 
-#### appMenu menu format
-
-The items (in args) consists of two arrays. The difference is how they are displayed in the menu. It's fully valid to keep the second array empty, but the first one needs at least one entry for the app to work.
-
-##### First array
-
-The first array should have objects with these keys in them:
-
-* name - The text for your menu
-* page - The page that the menu should open
-* args - An object with arguments for the page. The same type of arguments you would send in an openPage call
-* dialog - true|false Set this to true if you want it to open as a dialog instead. If you add a _title_ a title bar will be added. Without the title no title bar will be shown.
-* title - The title for the page when shown
-* accessibilityLabel - The accessibility label to use for testing with UIAutomation or any testing framework that uses UIAutomation
-
-##### Second array
-
-The second array should have objects with these keys in them:
-
-* name - The text for your menu
-* detail - A second line of text for your menu
-* page - The page that the menu should open
-* args - An object with arguments for the page. The same type of arguments you would send in an openPage call
-* dialog - true|false Set this to true if you want it to open as a dialog instead. If you add a _title_ a title bar will be added. Without the title no title bar will be shown.
-* title - The title for the page when shown
+* page - The name of the first page in your app.
+* args - Any arguments for your first page.
+* options - Any options you want to send to the first page.
 * accessibilityLabel - The accessibility label to use for testing with UIAutomation or any testing framework that uses UIAutomation
 
 ### Appearance
@@ -79,6 +55,10 @@ You can skip any and all values (they all have defaults) and some override other
 
 
 ## Upgrading to version
+
+### 6
+
+The rootpage no longer referes to the menu but any page in the system. To convert a version 5 app.json you would need to use a **drawer** with a menu in it's args and don't forget to add a **navigator** for each menu alternative where you used to have a navigational interface in the past.
 
 ### 5
 
