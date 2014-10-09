@@ -6,6 +6,18 @@ The imported pages can be opened using Javascript with only the ```PAGE.openDial
 
 ---
 
+## Table of contents
+
+* [email](#email)
+* [facebook](#facebook)
+* [image](#image)
+* [message](#message)
+* [sinaweibo](#sinaweibo)
+* [tencentweibo](#tencentweibo)
+* [twitter](#twitter)  
+
+---
+
 ## email
 
 Opens an email dialog that uses the email account associated with the phone to send an email.
