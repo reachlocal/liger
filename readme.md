@@ -44,9 +44,7 @@ Here we share little helpful tutorials on how we develop LigerMobile application
 
 # APIs and file formats
 
-* How to edit your [app.json](api/app.json.md) file
-* How [page.js](api/page.js.md) works
-* How to open the [built in](api/built-in.md) pages
+* [Documentation](api/readme.md)
 
 # Advanced topics
 
