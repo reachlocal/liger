@@ -1,6 +1,6 @@
 # Native pages in LigerMobile
 
-LigerMobile provides a number of native pages, but you can write your own native page in Liger that can be opened from an HTML page. Many apps can get away without writing any at all. Below is a list of what LigerMobile supplies. If you write your own native page, and if you feel its quite generic, do consider asking to have it added to LigerMobile itself.
+LigerMobile provides a number of native pages, but you can write your own native page in Liger that can be opened from an HTML page or a native page. Many apps can get away without writing any at all. Below is a list of what LigerMobile supplies. If you write your own native page, and if you feel its quite generic, do consider asking to have it added to LigerMobile itself.
 
 ## Collection pages
 
