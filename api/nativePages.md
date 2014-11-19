@@ -28,12 +28,13 @@ Imported pages are (navigationally) leaf node pages. A lot of the time they aren
 
 Imported pages are more often than not only available via ```openDialog(...)``` and not ```openPage(...)``` on iOS for technical reasons.
 
-| Imported page name                            | iOS | Android | short description                         |
-| --------------------------------------------- | --: | ------: | ----------------------------------------- |
-| [email](importedPages.md#email)               | ✓   | ✗       | For sending emails.                       |
-| [facebook](importedPages.md#facebook)         | ✓   | ✗       | For composing facebook messages.          |
-| [image](importedPages.md#image)               | ✓   | ✗       | For getting an image.                     |
-| [message](importedPages.md#message)           | ✓   | ✗       | For sending a message (text/iMesssage).   |
-| [sinaweibo](importedPages.md#sinaweibo)       | ✓   | ✗       | For composing sina weibo messages.        |
-| [tencentweibo](importedPages.md#tencentweibo) | ✓   | ✗       | For composing tencent weibo messages.     |
-| [twitter](importedPages.md#twitter)           | ✓   | ✗       | For composing twitter messages.           |
+| Imported page name                            | iOS      | Android | short description                         |
+| --------------------------------------------- | -------: | ------: | ----------------------------------------- |
+| [appSettings](importedPages.md#appSettings)   | (iOS8) ✓ | ✗       | For sending emails.                       |
+| [email](importedPages.md#email)               | ✓        | ✗       | For sending emails.                       |
+| [facebook](importedPages.md#facebook)         | ✓        | ✗       | For composing facebook messages.          |
+| [image](importedPages.md#image)               | ✓        | ✗       | For getting an image.                     |
+| [message](importedPages.md#message)           | ✓        | ✗       | For sending a message (text/iMesssage).   |
+| [sinaweibo](importedPages.md#sinaweibo)       | ✓        | ✗       | For composing sina weibo messages.        |
+| [tencentweibo](importedPages.md#tencentweibo) | ✓        | ✗       | For composing tencent weibo messages.     |
+| [twitter](importedPages.md#twitter)           | ✓        | ✗       | For composing twitter messages.           |
