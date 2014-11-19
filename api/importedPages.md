@@ -8,6 +8,7 @@ The imported pages can be opened using Javascript with only the ```PAGE.openDial
 
 ## Table of contents
 
+* [appSettings](#appSettings)
 * [email](#email)
 * [facebook](#facebook)
 * [image](#image)
@@ -17,6 +18,32 @@ The imported pages can be opened using Javascript with only the ```PAGE.openDial
 * [twitter](#twitter)  
 
 ---
+
+## appSettings
+
+Opens up settings using ```UIApplicationOpenSettingsURLString``` on iOS8. Does nothing on iOS7. It's recommended that you supply an appSettings.html page if your application supports older versions that iOS8.
+
+#### Parameters
+
+```javascript
+var args = {
+	// There are no options that are specific to this page
+}
+
+var options = {
+	// There are no options that are specific to this page
+}
+
+PAGE.openDialog('appSettings', args, options);
+```
+
+#### Result on iOS
+
+```javascript
+{
+}
+```
+
 
 ## email
 
